@@ -22,7 +22,6 @@
                             <div class="navbar">
                                 <div class="navbar-inner">
                                     {% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
-                                    <!-- {{ location }} -->
                                     <ul class="nav">
                                         <li {% if location == '' %}class="active" {% endif %}>
                                             <a href="/">Home</a>
