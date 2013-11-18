@@ -22,15 +22,16 @@
                             <div class="navbar">
                                 <div class="navbar-inner">
                                     {% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
+                                    <!-- {{ location }} -->
                                     <ul class="nav">
-                                        <li>
-                                            <a {% if location == '' %}class="active" {% endif %}href="/">Home</a>
+                                        <li {% if location == '' %}class="active" {% endif %}>
+                                            <a href="/">Home</a>
                                         </li>
-                                        <li>
-                                            <a {% if location == 'blog' %}class="active" {% endif %}href="/blog">Blog</a>
+                                        <li {% if location == 'blog' %}class="active" {% endif %}>
+                                            <a href="/blog">Blog</a>
                                         </li>
-                                        <li>
-                                            <a {% if location == 'about' %}class="active" {% endif %}href="/about">About</a>
+                                        <li {% if location == 'about' %}class="active" {% endif %}>
+                                            <a href="/about">About</a>
                                         </li>
                                     </ul>
                                 </div>
