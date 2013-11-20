@@ -1,7 +1,7 @@
 ---
 permalink:	/products/
 layout:		products
-title:		Contact
+title:		Products
 ---
 
 Products
