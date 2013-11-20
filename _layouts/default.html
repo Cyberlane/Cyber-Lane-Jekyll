@@ -4,7 +4,7 @@
         <title>Cyber-Lane | {{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="canonical" href="{{ page.url }}" />
-        {% include /Content/master.css %}
+        <link rel="stylesheet" type="text/css" href="/Content/master.css"/>
     </head>
     <body>
         <div id="wrap" class="wrap">
@@ -46,9 +46,9 @@
         </div>
         <footer class="footer hidden-phone">
         </footer>
-        {% include /Scripts/jquery-1.9.1.min.js %}
-        {% include /Scripts/bootstrap.min.js %}
-        {% include /Scripts/application.js %}
+        {% include jquery-1.9.1.min.js %}
+        {% include bootstrap.min.js %}
+        {% include application.js %}
         <script type="text/javascript">
             var disqus_shortname  = 'justinn',
                 disqus_identifier = '{{ page.path | split:'/' | last | cgi_escape }}',
