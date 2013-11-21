@@ -1,6 +1,6 @@
 ﻿; (function (window, $) {
     var cyberlane = {
-    	resize = function () {
+    	resize: function () {
         	$("#main-row").css("height", ($("body").height() - $("footer").height() - $(".masterhead").height()) + "px");
     	}
 	};
