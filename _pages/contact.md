@@ -4,6 +4,8 @@ layout:    default
 title:     Contact
 ---
 
+## Contact Information
+
 If you have any questions, concerns or would like to contact me for any other reason you can with the following details.
 
 Email: <Justin@Cyber-Lane.com>
