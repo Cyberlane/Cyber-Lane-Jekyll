@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    A New Blog
+title:    Brighton Mini Maker Faire 2013
 category: blog
 updated:  2013-11-22
 location: Brighton, England
