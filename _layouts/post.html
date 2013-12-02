@@ -7,9 +7,9 @@ layout: default
 <hr />
 
 {% if post.comments != false %}
-<div class="tags">
+<div class="tag_wrapper">
     <span class="glyphicon glyphicon-tag"></span> tags
-    <ul>
+    <ul class="tags">
     	{% for tag in page.tags %}
         <li><a href="/search?tags={{ tag }}">{{ tag }}</a></li>
         {% endfor %}
