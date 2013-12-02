@@ -11,7 +11,7 @@ layout: default
     <span class="glyphicon glyphicon-tag"></span> tags
     <ul>
     	{% for tag in page.tags %}
-        <li>{{ tag }}</li>
+        <li><a href="/search?tags={{ tag }}">{{ tag }}</a></li>
         {% endfor %}
     </ul>
 </div>
