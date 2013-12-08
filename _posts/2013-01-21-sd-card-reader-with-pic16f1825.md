@@ -8,7 +8,7 @@ tags: [PIC, PIC16F1825, SD_Card]
 ---
 
 This post is more of an introduction of what I am working on more than anything else really. Chris Holden created an amazing RAW audio playing device which has essentially only 5 components, as listed here:
-
+{{ more }}
 - PIC16F1825
 - 100uF capacitor
 - NPN Transistor
