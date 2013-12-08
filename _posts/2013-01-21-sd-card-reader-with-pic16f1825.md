@@ -41,7 +41,7 @@ The first strange thing I found was the "AMyFol" right next to "MYFOLDER". I dec
 
 So anyway, a number of blog posts are sure to follow whilst I work on this. I am hoping to get the Sub Folder support added very quickly, as I need it for another project I have in mind.
 
-[Files1]: /Content/blog_images/Files1.jpg
-[Files2]: /Content/blog_images/Files2.jpg
-[UART]: /Content/blog_images/UART.jpg
-[hex1]: /Content/blog_images/hex1jpg
+[Files1]: /Content/blog_images/Files1.png
+[Files2]: /Content/blog_images/Files2.png
+[UART]: /Content/blog_images/UART.png
+[hex1]: /Content/blog_images/hex1.png
