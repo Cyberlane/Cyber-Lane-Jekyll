@@ -25,4 +25,19 @@ products:
 <div>
 	{{ content }}
 </div>
-<div>4</div>
+
+{% for product in products %}
+<div class="row-fluid">
+	<div class="span3">
+		<img src="{{ product.img.src }}" alt="{{ product.img.alt }}" class="img-thumbnail" />
+	</div>
+	<div class="span5">
+		<h3>{{ product.title }}</h3>
+		<div>
+			<a href="{{ product.wiki }}" target="_blank">Instructions</a>
+		</div>
+		{{ product.description }}
+	</div>
+</div>
+<hr />
+{% endfor %}
