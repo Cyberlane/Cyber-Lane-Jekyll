@@ -1,5 +1,27 @@
 ---
 layout: default
+products:
+	-
+		title: 'Tree Kit Trinket'
+		description: 'Electronic PCB Kit with a Christmas twist!'
+		wiki: 'https://github.com/Cyberlane/Tree-Kit-Trinket/wiki'
+		img:
+			src: '/Content/products/tree-kit-trinket.png'
+			alt: 'tree-kit-trinket'
+	-
+		title: 'Snow-Meep Kit'
+		description: 'Soldering is easy Snow Man variant!'
+		wiki: 'https://github.com/Cyberlane/Snow-Meep/wiki'
+		img:
+			src: '/Content/products/snow-meep.png'
+			alt: 'snow-meep'
+	-
+		title: 'Soldering Is Easy'
+		description: 'Soldering is easy kit.'
+		wiki: 'https://github.com/Cyberlane/Soldering-is-easy/wiki'
+		img:
+			src: '/Content/products/soldering-is-easy.png'
+			alt: 'soldering-is-easy'
 ---
 <h1>{{ page.title }}</h1>
 
@@ -7,95 +29,18 @@ layout: default
 	{{ content }}
 </div>
 
+{% for product in products %}
 <div class="row-fluid">
 	<div class="span3">
-		<img src="/Content/products/tree-kit-trinket.png" alt="tree-kit-trinket" class="img-thumbnail" />
+		<img src="{{ product.img.src }}" alt="{{ product.img.alt }}" class="img-thumbnail" />
 	</div>
 	<div class="span5">
-		<h3>Tree Kit Trinket</h3>
+		<h3>{{ product.title }}</h3>
 		<div>
-			<a href="https://github.com/Cyberlane/Tree-Kit-Trinket/wiki" target="_blank">Instructions</a>
+			<a href="{{ product.wiki }}" target="_blank">Instructions</a>
 		</div>
-		Electronic PCB Kit with a Christmas twist!
-	</div>
-	<div class="span3" style="display:none;">
-		<div class="row-fluid">
-			<div class="span4">
-				Price :
-			</div>
-			<div class="span7">
-				&pound;5.50
-			</div>
-		</div>
-		<div class="payment_buttons">
-			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-				<input type="hidden" name="cmd" value="_s-xclick">
-				<input type="hidden" name="hosted_button_id" value="QTFSJMUA66UEG">
-				<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
-				<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-			</form>
-		</div>
+		{{ product.description }}
 	</div>
 </div>
 <hr />
-<div class="row-fluid">
-	<div class="span3">
-		<img src="/Content/products/snow-meep.png" alt="snow-meep" class="img-thumbnail" />
-	</div>
-	<div class="span5">
-		<h3>Snow-Meep Kit</h3>
-		<div>
-			<a href="https://github.com/Cyberlane/Snow-Meep/wiki" target="_blank">Instructions</a>
-		</div>
-		Soldering is easy Snow Man variant!
-	</div>
-	<div class="span3" style="display:none;">
-		<div class="row-fluid">
-			<div class="span4">
-				Price :
-			</div>
-			<div class="span7">
-				&pound;2.00
-			</div>
-		</div>
-		<div class="payment_buttons">
-			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-				<input type="hidden" name="cmd" value="_s-xclick">
-				<input type="hidden" name="hosted_button_id" value="5S8VT643UZZK2">
-				<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
-				<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-			</form>
-		</div>
-	</div>
-</div>
-<hr />
-<div class="row-fluid">
-	<div class="span3">
-		<img src="/Content/products/soldering-is-easy.png" alt="soldering-is-easy" class="img-thumbnail" />
-	</div>
-	<div class="span5">
-		<h3>Soldering Is Easy!</h3>
-		<div>
-			<a href="https://github.com/Cyberlane/Soldering-is-easy/wiki" target="_blank">Instructions</a>
-		</div>
-		Soldering is easy kit.
-	</div>
-	<div class="span3" style="display:none;">
-		<div class="row-fluid">
-			<div class="span4">
-				Price :
-			</div>
-			<div class="span7">
-				&pound;2.00
-			</div>
-		</div>
-		<div class="payment_buttons">
-			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-				<input type="hidden" name="cmd" value="_s-xclick">
-				<input type="hidden" name="hosted_button_id" value="BZJ2PVFSKKNSW">
-				<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
-				<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-			</form>
-		</div>
-	</div>
-</div>
+{% endfor %}
