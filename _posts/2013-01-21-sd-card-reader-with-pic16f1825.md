@@ -29,7 +29,6 @@ I am looking to make a number of changes to this project, and my improvements wi
 Currently on my SD card I am working with the following file structure:
 
 ![Files1]
-![Files2]
 
 Now I have made a couple small tweaks so far, but nothing major yet. Originally Chris' code did not care if a file was deleted or not, which annoyed me a bit, so was the first tweak I had to make. Now when I query the root directory with UART I see the following:
 
@@ -42,6 +41,5 @@ The first strange thing I found was the "AMyFol" right next to "MYFOLDER". I dec
 So anyway, a number of blog posts are sure to follow whilst I work on this. I am hoping to get the Sub Folder support added very quickly, as I need it for another project I have in mind.
 
 [Files1]: /Content/blog_images/Files1.png
-[Files2]: /Content/blog_images/Files2.png
 [UART]: /Content/blog_images/UART1.png
 [hex1]: /Content/blog_images/hex1.png
