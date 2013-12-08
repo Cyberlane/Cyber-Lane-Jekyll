@@ -26,7 +26,7 @@ products:
 	{{ content }}
 </div>
 
-{% for product in products %}
+{% for product in page.products %}
 <div class="row-fluid">
 	<div class="span3">
 		<img src="{{ product.img.src }}" alt="{{ product.img.alt }}" class="img-thumbnail" />
