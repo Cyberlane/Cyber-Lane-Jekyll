@@ -10,4 +10,4 @@ There was some delay due to postal problems with ChinaPost, but after some persi
 {{ more }}
 ![badges]
 
-[badges] :/Content/blog_images/Flower_Badges_Batch.jpg
+[badges]: /Content/blog_images/Flower_Badges_Batch.jpg
