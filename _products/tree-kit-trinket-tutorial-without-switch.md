@@ -120,23 +120,23 @@ Just connect the batteries, positive side up (the side with the writing). To rem
 
 
 
-[001]: /Content/products/tree-kit-trinket/img/001.jpg
-[002]: /Content/products/tree-kit-trinket/img/002.jpg
-[003]: /Content/products/tree-kit-trinket/img/003.jpg
-[004]: /Content/products/tree-kit-trinket/img/004.jpg
-[005]: /Content/products/tree-kit-trinket/img/005.jpg
-[006]: /Content/products/tree-kit-trinket/img/006.jpg
-[007]: /Content/products/tree-kit-trinket/img/007.jpg
-[008]: /Content/products/tree-kit-trinket/img/008.jpg
-[009]: /Content/products/tree-kit-trinket/img/009.jpg
-[010]: /Content/products/tree-kit-trinket/img/010.jpg
-[011]: /Content/products/tree-kit-trinket/img/011.jpg
-[012]: /Content/products/tree-kit-trinket/img/012.jpg
-[013]: /Content/products/tree-kit-trinket/img/013.jpg
-[014]: /Content/products/tree-kit-trinket/img/014.jpg
-[015]: /Content/products/tree-kit-trinket/img/015.jpg
-[016]: /Content/products/tree-kit-trinket/img/016.jpg
-[017]: /Content/products/tree-kit-trinket/img/017.jpg
-[018]: /Content/products/tree-kit-trinket/img/018.jpg
-[019]: /Content/products/tree-kit-trinket/img/019.jpg
-[020]: /Content/products/tree-kit-trinket/img/020.jpg
+[001]: /Content/products/tree-kit-trinket/001.jpg
+[002]: /Content/products/tree-kit-trinket/002.jpg
+[003]: /Content/products/tree-kit-trinket/003.jpg
+[004]: /Content/products/tree-kit-trinket/004.jpg
+[005]: /Content/products/tree-kit-trinket/005.jpg
+[006]: /Content/products/tree-kit-trinket/006.jpg
+[007]: /Content/products/tree-kit-trinket/007.jpg
+[008]: /Content/products/tree-kit-trinket/008.jpg
+[009]: /Content/products/tree-kit-trinket/009.jpg
+[010]: /Content/products/tree-kit-trinket/010.jpg
+[011]: /Content/products/tree-kit-trinket/011.jpg
+[012]: /Content/products/tree-kit-trinket/012.jpg
+[013]: /Content/products/tree-kit-trinket/013.jpg
+[014]: /Content/products/tree-kit-trinket/014.jpg
+[015]: /Content/products/tree-kit-trinket/015.jpg
+[016]: /Content/products/tree-kit-trinket/016.jpg
+[017]: /Content/products/tree-kit-trinket/017.jpg
+[018]: /Content/products/tree-kit-trinket/018.jpg
+[019]: /Content/products/tree-kit-trinket/019.jpg
+[020]: /Content/products/tree-kit-trinket/020.jpg
