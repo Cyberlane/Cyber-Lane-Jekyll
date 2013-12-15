@@ -24,4 +24,4 @@ Welcome to the Tree-Kit-Trinket wiki!
 
 ![001]
 
-[001]: /Content/products/tree-kit-trinket/_MG_0458.jpg
+[001]: /Content/products/tree-kit-trinket/IMG_0458.jpg
