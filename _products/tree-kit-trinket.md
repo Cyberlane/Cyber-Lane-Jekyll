@@ -1,5 +1,5 @@
 ---
-permalink:	/products/tree-kit-trinket
+permalink:	/products/tree-kit-trinket/
 layout:		product_info
 title:		Tree-Kit-Trinket
 sidebar:
