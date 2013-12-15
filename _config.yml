@@ -16,7 +16,7 @@ pygments:            false
 markdown:            rdiscount
 permalink:           '/blog/:year/:title'
 pagination_path:     '/blog/page:num/'
-include:             ['_pages']
+include:             ['_pages','_products']
 relative_permalinks: false
 paginate:            10
 paginate_path:       '/blog/page:num/'
