@@ -6895,65 +6895,20 @@ a.badge:focus {
 .glyphicon-tree-deciduous:before {
   content: "\e200";
 }
-html,
-body {
-  height: 100%;
+.side-menu {
+  width: 220px;
+  float: right;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
 }
-@media (max-width: 767px) {
-  body {
-    padding: 0;
-  }
+.tag_wrapper {
+  font-size: 22px;
+  margin-bottom: 15px;
 }
-body {
-  background: #cccccc url('/Content/layout/Cyber-Lane-parts_0012_bg-repeat-tile.png') repeat;
-}
-#wrap {
-  min-height: 100%;
-}
-#main {
-  overflow: auto;
-  padding-bottom: 163px;
-}
-.masterhead {
-  height: 224px;
-  background: transparent url('/Content/layout/Cyber-Lane-parts_0006_header-filler-repeat.png') repeat-x top;
-}
-.masterhead h1 {
-  max-width: 728px;
-  height: 224px;
-  margin: 0 auto;
-  text-indent: -10000px;
-  background: transparent url('/Content/layout/Cyber-Lane-parts_0003_header-middle-no-logo.png') no-repeat center top;
-}
-@media (max-width: 767px) {
-  .masterhead {
-    height: 96px !important;
-  }
-  .masterhead h1 {
-    background-size: 100%;
-    height: 115px !important;
-  }
-}
-.self-portrait img {
-  position: absolute;
-  bottom: 0;
-  width: 25%;
-  max-width: 100%;
-}
-footer {
-  position: relative;
-  margin-top: -163px;
-  height: 163px;
-  clear: both;
-  background: url('/Content/layout/Cyber-Lane-partsv2_0011_footer-middle-repeat.png') repeat-x bottom;
-}
-.content-container {
-  position: relative;
-}
-.tweet {
-  height: 116px;
-  background: url('/Content/layout/Cyber-Lane-parts_0007_twitter-box.png') no-repeat;
-  margin-bottom: 10px;
+ul.tags.cf {
+  display: block !important;
 }
 .tweet-text {
   padding: 28px 5px 10px 20px;
@@ -6966,9 +6921,33 @@ ul#identityProviders li img {
   width: 240px;
   border: 1px solid #333333;
 }
-.tag_wrapper {
-  font-size: 22px;
-  margin-bottom: 15px;
+#wrap {
+  min-height: 100%;
+}
+body {
+  background: #cccccc url('/Content/layout/Cyber-Lane-parts_0012_bg-repeat-tile.png') repeat;
+}
+ul.results li {
+  list-style-image: none;
+  list-style-type: none;
+}
+.tweet {
+  height: 116px;
+  background: url('/Content/layout/Cyber-Lane-parts_0007_twitter-box.png') no-repeat;
+  margin-bottom: 10px;
+}
+.self-portrait img {
+  position: absolute;
+  bottom: 0;
+  width: 25%;
+  max-width: 100%;
+}
+html,
+body {
+  height: 100%;
+}
+.well {
+  overflow: auto;
 }
 .payment_buttons {
   display: none;
@@ -6977,12 +6956,8 @@ ul.tags {
   display: inline-block;
   list-style: disc outside none;
 }
-ul.tags.cf {
-  display: block !important;
-}
-ul.results li {
-  list-style-image: none;
-  list-style-type: none;
+ul.tags li:last-child:after {
+  content: '';
 }
 ul.tags li {
   font-size: 14px;
@@ -6998,20 +6973,40 @@ ul.tags li {
 ul.tags li:after {
   content: ',';
 }
-ul.tags li:last-child:after {
-  content: '';
+footer {
+  position: relative;
+  margin-top: -163px;
+  height: 163px;
+  clear: both;
+  background: url('/Content/layout/Cyber-Lane-partsv2_0011_footer-middle-repeat.png') repeat-x bottom;
 }
-.side-menu {
-  width: 220px;
-  float: right;
-  border: 1px solid #e3e3e3;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+.masterhead {
+  height: 224px;
+  background: transparent url('/Content/layout/Cyber-Lane-parts_0006_header-filler-repeat.png') repeat-x top;
 }
-.well {
+.masterhead h1 {
+  max-width: 728px;
+  height: 224px;
+  margin: 0 auto;
+  text-indent: -10000px;
+  background: transparent url('/Content/layout/Cyber-Lane-parts_0003_header-middle-no-logo.png') no-repeat center top;
+}
+#main {
   overflow: auto;
+  padding-bottom: 163px;
 }
-.navbar {
-  margin-top: 20px;
+.content-container {
+  position: relative;
+}
+@media (max-width: 767px) {
+  body {
+    padding: 0;
+  }
+  .masterhead {
+    height: 96px !important;
+  }
+  .masterhead h1 {
+    background-size: 100%;
+    height: 115px !important;
+  }
 }

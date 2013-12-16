@@ -1,46 +1,150 @@
 ﻿@import "less/bootstrap.less";
 @import "less/responsive.less";
 
+@wellBackground:                  #f5f5f5;
+@navbarCollapseWidth:             979px;
+@navbarHeight:                    40px;
+@navbarBackground:                darken(@navbarBackgroundHighlight, 5%);
+@navbarBackgroundHighlight:       @grayDark;
+@navbarBorder:                    darken(@navbarBackground, 12%);
+@navbarText:                      @gray;
+@navbarLinkColor:                 @gray;
+@navbarLinkColorHover:            @grayLighter;
+@navbarLinkColorActive:           @grayLighter;
+@navbarLinkBackgroundHover:       transparent;
+@navbarLinkBackgroundActive:      darken(@navbarBackground, 5%);
+@navbarBrandColor:                @navbarLinkColor;
+@navbarInverseBackground:                #111111;
+@navbarInverseBackgroundHighlight:       #222222;
+@navbarInverseBorder:                    #252525;
+@navbarInverseText:                      @grayLight;
+@navbarInverseLinkColor:                 @grayLight;
+@navbarInverseLinkColorHover:            @white;
+@navbarInverseLinkColorActive:           @navbarInverseLinkColorHover;
+@navbarInverseLinkBackgroundHover:       transparent;
+@navbarInverseLinkBackgroundActive:      @navbarInverseBackground;
+@navbarInverseSearchBackground:          lighten(@navbarInverseBackground, 25%);
+@navbarInverseSearchBackgroundFocus:     @white;
+@navbarInverseSearchBorder:              @navbarInverseBackground;
+@navbarInverseSearchPlaceholderColor:    #ccc;
+@navbarInverseBrandColor:                @navbarInverseLinkColor;
+
 @icon-font-path:          "/Content/fonts/";
 @icon-font-name:          "glyphicons-halflings-regular";
-
+@iconSpritePath:          "/Content/images/glyphicons-halflings.png";
+@iconWhiteSpritePath:     "/Content/images/glyphicons-halflings-white.png";
 @import "less/glyphicons.less";
 
-html, body {
-    height: 100%;
+.side-menu {
+    width: 220px;
+    float: right;
+    border: 1px solid darken(@wellBackground, 7%);
+    .border-radius(@baseBorderRadius);
 }
-
-@media (max-width: 767px){
-	body {
-		padding: 0;
-	}
+.tag_wrapper {
+    font-size:22px;
+    margin-bottom:15px;
 }
-
-body {
-	background: #CCC url('/Content/layout/Cyber-Lane-parts_0012_bg-repeat-tile.png') repeat;
+ul.tags.cf {
+    display:block !important;
 }
-
+.tweet-text {
+    padding: 28px 5px 10px 20px;
+}
+ul#identityProviders {
+    li {
+        margin: 5px;
+        width:240px;
+        img {
+            width:240px;
+            border:1px solid @grayDark;
+        }
+    }
+}
 #wrap {
     min-height:100%;
 }
-
+body {
+    background: #CCC url('/Content/layout/Cyber-Lane-parts_0012_bg-repeat-tile.png') repeat;
+}
+ul.results {
+    li {
+        list-style-image:none;
+        list-style-type:none;
+    }
+}
+.tweet {
+    height: 116px;
+    background: url('/Content/layout/Cyber-Lane-parts_0007_twitter-box.png') no-repeat;
+    margin-bottom: 10px;
+}
+.self-portrait {
+    img {
+        position: absolute;
+        bottom: 0;
+        width:25%;
+        max-width:100%;
+    }
+}
+html, body {
+    height: 100%;
+}
+.well {
+    overflow:auto;
+}
+.payment_buttons {
+    display:none;
+}
+ul.tags {
+    display: inline-block;
+    list-style: disc outside none;
+    li:last-child:after {
+        content: '';
+    }
+    li {
+        font-size:14px;
+        display:inline-block;
+        list-style-image:none;
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        color:#9f9e99;
+        font-style:italic;
+        text-decoration:none;
+    }
+    li:after {
+        content: ',';
+    }
+}
+footer {
+    position:relative;
+    margin-top:-163px;
+    height: 163px;
+    clear:both;
+    background: url('/Content/layout/Cyber-Lane-partsv2_0011_footer-middle-repeat.png') repeat-x bottom;
+}
+.masterhead {
+    height: 224px;
+    background: transparent url('/Content/layout/Cyber-Lane-parts_0006_header-filler-repeat.png') repeat-x top;
+    h1 {
+        max-width: 728px;
+        height: 224px;
+        margin: 0 auto;
+        text-indent: -10000px;
+        background: transparent url('/Content/layout/Cyber-Lane-parts_0003_header-middle-no-logo.png') no-repeat center top;
+    }
+}
 #main {
     overflow:auto;
     padding-bottom:163px;
 }
-
-.masterhead {
-	height: 224px;
-	background: transparent url('/Content/layout/Cyber-Lane-parts_0006_header-filler-repeat.png') repeat-x top;
+.content-container {
+    position: relative;
 }
-.masterhead h1 {
-	max-width: 728px;
-	height: 224px;
-	margin: 0 auto;
-	text-indent: -10000px;
-	background: transparent url('/Content/layout/Cyber-Lane-parts_0003_header-middle-no-logo.png') no-repeat center top;
-}
-@media (max-width: 767px) {
+@media (max-width: 767px){
+    body {
+            padding: 0;
+    }
     .masterhead {
         height: 96px !important;
     }
@@ -49,142 +153,3 @@ body {
         height: 115px !important;
     }
 }
-
-.self-portrait img {
-	position: absolute;
-	bottom: 0;
-	width:25%;
-	max-width:100%;
-}
-
-footer {
-    position:relative;
-    margin-top:-163px;
-	height: 163px;
-    clear:both;
-	background: url('/Content/layout/Cyber-Lane-partsv2_0011_footer-middle-repeat.png') repeat-x bottom;
-}
-
-.content-container {
-	position: relative;
-}
-
-.tweet {
-	height: 116px;
-	background: url('/Content/layout/Cyber-Lane-parts_0007_twitter-box.png') no-repeat;
-	margin-bottom: 10px;
-}
-
-.tweet-text {
-	padding: 28px 5px 10px 20px;
-}
-
-ul#identityProviders li {
-    margin: 5px;
-    width:240px;
-}
-
-ul#identityProviders li img {
-    width:240px;
-    border:1px solid @grayDark;
-}
-
-.tag_wrapper {
-	font-size:22px;
-	margin-bottom:15px;
-}
-.payment_buttons {
-	display:none;
-}
-ul.tags {
-	display: inline-block;
-	list-style: disc outside none;
-}
-
-ul.tags.cf {
-	display:block !important;
-}
-
-ul.results li{
-	list-style-image:none;
-	list-style-type:none;
-}
-
-ul.tags li {
-	font-size:14px;
-	display:inline-block;
-	list-style-image:none;
-	list-style-type:none;
-	margin:0;
-	padding:0;
-	color:#9f9e99;
-	font-style:italic;
-	text-decoration:none;
-}
-
-ul.tags li:after {
-	content: ',';
-}
-
-ul.tags li:last-child:after {
-	content: '';
-}
-
-.side-menu {
-	width: 220px;
-	float: right;
-	border: 1px solid darken(@wellBackground, 7%);
-	.border-radius(@baseBorderRadius);
-}
-
-.well {
-	overflow:auto;
-}
-
-// Wells
-// -------------------------
-@wellBackground:                  #f5f5f5;
-
-// Navbar
-// -------------------------
-@navbarCollapseWidth:             979px;
-
-@navbarHeight:                    40px;
-@navbarBackground:                darken(@navbarBackgroundHighlight, 5%);
-@navbarBackgroundHighlight:       @grayDark;
-@navbarBorder:                    darken(@navbarBackground, 12%);
-
-@navbarText:                      @gray;
-@navbarLinkColor:                 @gray;
-@navbarLinkColorHover:            @grayLighter;
-@navbarLinkColorActive:           @grayLighter;
-@navbarLinkBackgroundHover:       transparent;
-@navbarLinkBackgroundActive:      darken(@navbarBackground, 5%);
-
-@navbarBrandColor:                @navbarLinkColor;
-
-// Inverted navbar
-@navbarInverseBackground:                #111111;
-@navbarInverseBackgroundHighlight:       #222222;
-@navbarInverseBorder:                    #252525;
-
-@navbarInverseText:                      @grayLight;
-@navbarInverseLinkColor:                 @grayLight;
-@navbarInverseLinkColorHover:            @white;
-@navbarInverseLinkColorActive:           @navbarInverseLinkColorHover;
-@navbarInverseLinkBackgroundHover:       transparent;
-@navbarInverseLinkBackgroundActive:      @navbarInverseBackground;
-
-@navbarInverseSearchBackground:          lighten(@navbarInverseBackground, 25%);
-@navbarInverseSearchBackgroundFocus:     @white;
-@navbarInverseSearchBorder:              @navbarInverseBackground;
-@navbarInverseSearchPlaceholderColor:    #ccc;
-
-@navbarInverseBrandColor:                @navbarInverseLinkColor;
-
-.navbar {
-	margin-top: 20px;
-}
-
-@iconSpritePath:          "/Content/images/glyphicons-halflings.png";
-@iconWhiteSpritePath:     "/Content/images/glyphicons-halflings-white.png";
