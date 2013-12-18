@@ -22,23 +22,35 @@ sidebar:
 ---
 ### Step 1 - Your kit
 
-You should have a kit which looks similar to this
+<div class="row">
+  <div class="span6">
+    You should have a kit which looks similar to this
+  </div>
+  <div class="span5">
+    ![001]
+  </div>
+</div>
+<div class="row">
+  <div class="span6">
+    Each kit comes with the following pieces:
 
-![001]
+    A) Tree circuit 1 - this is the board which will have the battery holders attached.
 
-Each kit comes with the following pieces:
+    B) Tree circuit 2 - this is the second board which helps the first tree stand up
 
-A) Tree circuit 1 - this is the board which will have the battery holders attached.
+    C) 2x CR2032 coincell batteries
 
-B) Tree circuit 2 - this is the second board which helps the first tree stand up
+    D) 12x LEDs (these will be the lights on the tree) - one leg is longer than the other: the longer leg goes into the top most hole with writing next to it, and the shorter leg in the other.
 
-C) 2x CR2032 coincell batteries
+    E) 2x battery holders
+  </div>
+  <div class="span5">
+    ![002]
+  </div>
+</div>
 
-D) 12x LEDs (these will be the lights on the tree) - one leg is longer than the other: the longer leg goes into the top most hole with writing next to it, and the shorter leg in the other.
 
-E) 2x battery holders
 
-![002]
 
 ### Step 2 - The battery holders
 
