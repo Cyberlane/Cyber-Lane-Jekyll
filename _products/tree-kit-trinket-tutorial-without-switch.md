@@ -22,7 +22,7 @@ sidebar:
 ---
 ### Step 1 - Your kit
 
-<div class="row">
+<div class="row-fluid">
   <div class="span6">
     You should have a kit which looks similar to this
   </div>
@@ -30,23 +30,23 @@ sidebar:
     ![001]
   </div>
 </div>
-<div class="row">
-  <div class="span6">
-    Each kit comes with the following pieces:
+<div class="row-fluid">
+<div class="span6">
+Each kit comes with the following pieces:
 
-    A) Tree circuit 1 - this is the board which will have the battery holders attached.
+A) Tree circuit 1 - this is the board which will have the battery holders attached.
 
-    B) Tree circuit 2 - this is the second board which helps the first tree stand up
+B) Tree circuit 2 - this is the second board which helps the first tree stand up
 
-    C) 2x CR2032 coincell batteries
+C) 2x CR2032 coincell batteries
 
-    D) 12x LEDs (these will be the lights on the tree) - one leg is longer than the other: the longer leg goes into the top most hole with writing next to it, and the shorter leg in the other.
+D) 12x LEDs (these will be the lights on the tree) - one leg is longer than the other: the longer leg goes into the top most hole with writing next to it, and the shorter leg in the other.
 
-    E) 2x battery holders
-  </div>
-  <div class="span5">
-    ![002]
-  </div>
+E) 2x battery holders
+</div>
+<div class="span5">
+![002]
+</div>
 </div>
 
 
