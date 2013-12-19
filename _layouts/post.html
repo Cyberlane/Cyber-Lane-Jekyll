@@ -3,10 +3,10 @@ layout: default
 ---
 <h1>
 	<div class="post-date">
-		<time class="entry-date" datetime="{{ post.date | date:'%B %-d, %Y' }}">
-			<span class="entry-day">{{ post.date | date:'%-d' }}</span>
-			<span class="entry-month">{{ post.date | date:'%b' }}</span>
-			<span class="entry-year">{{ post.date | date:'%Y' }}</span>
+		<time class="entry-date" datetime="{{ page.date | date:'%B %-d, %Y' }}">
+			<span class="entry-day">{{ page.date | date:'%-d' }}</span>
+			<span class="entry-month">{{ page.date | date:'%b' }}</span>
+			<span class="entry-year">{{ page.date | date:'%Y' }}</span>
 		</time>
 	</div>
 	{{ page.title }}
