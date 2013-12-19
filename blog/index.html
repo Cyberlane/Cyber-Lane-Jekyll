@@ -16,7 +16,7 @@ title: Home
 	<p class="post-meta">
 		posted in
 		<ul class="tags">
-    	{% for tag in page.tags %}
+    	{% for tag in post.tags %}
         <li><a href="/search?tags={{ tag }}">{{ tag }}</a></li>
         {% endfor %}
     	</ul>
