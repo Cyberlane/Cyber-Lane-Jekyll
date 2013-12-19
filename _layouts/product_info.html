@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<h1>{{ page.title }}</h1>
 <ul class="nav nav-list side-menu">
 	{% for entry in page.sidebar %}
 	<li class="nav-header">{{ entry.text }}</li>
@@ -11,7 +12,6 @@ layout: default
 		{% endfor %}
 	{% endfor %}
 </ul>
-<h1>{{ page.title }}</h1>
 
 <div>
 	{% assign rows = content | split:'&ndash;row&ndash;' %}
