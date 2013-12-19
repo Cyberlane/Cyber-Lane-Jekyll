@@ -18,9 +18,13 @@ layout: default
 	{% for row in rows %}
 	<div class="row-fluid">
 	{% assign cols = row | split:'&ndash;column&ndash;' %}
+	{% if cols.size == 1 %}
+	{{ row }}
+	{% else %}
 	{% for col in cols %}
 	<div class="span6">{{ col }}</div>
 	{% endfor %}
+	{% endif %}
 	</div>
 	{% endfor %}
 </div>
