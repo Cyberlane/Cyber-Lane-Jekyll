@@ -14,10 +14,10 @@ layout: default
 <h1>{{ page.title }}</h1>
 
 <div>
-	{% assign rows = content | split:'--row--' %}
+	{% assign rows = content | split:'&ndash;row&ndash;' %}
 	{% for row in rows %}
 	<div class="row-fluid">
-	{% assign cols = row | split:'--column--' %}
+	{% assign cols = row | split:'&ndash;column&ndash;' %}
 	{% for col in cols %}
 	<div class="span6">{{ col }}</div>
 	{% endfor %}
