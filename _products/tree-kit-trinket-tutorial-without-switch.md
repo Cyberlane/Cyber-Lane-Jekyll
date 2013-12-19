@@ -66,7 +66,7 @@ As mentioned earlier on, the LEDs have one leg longer than the other. The longer
 ![007]
 --row--
 When pushing the LEDs through the holes, make sure not *not* push them all the way through. Once they are about half way through, bend them towards the edge of the board until they are flush against the board.
---column
+--column--
 ![008]
 --row--
 When bent, the LEDs should look similar to this:
