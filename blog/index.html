@@ -3,6 +3,9 @@ layout: default
 title: Home
 ---
 {% for post in paginator.posts %}
+{% if forloop.index > 0 %}
+<hr />
+{% endif %}
 <h2 class="post-title">
 	<div class="post-date">
 		<time class="entry-date" datetime="{{ post.date | date:'%B %-d, %Y' }}">
@@ -15,7 +18,7 @@ title: Home
 </h2>
 <p class="post-meta">
 	<div class="tag_wrapper">
-		<span class="glyphicon glyphicon-tag"></span> tags :
+		<span class="glyphicon glyphicon-tag"></span> tags
 	    <ul class="tags">
 	    	{% for tag in post.tags %}
 	        <li><a href="/search?tags={{ tag }}">{{ tag }}</a></li>
