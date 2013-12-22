@@ -5,7 +5,7 @@ layout: default
 <div>
 	{{ page.intro }}
 	<ul class="nav nav-list side-menu">
-		{% for entry in page.sidebar %}
+		{% for entry in site.data[page.sidebar] %}
 		<li class="nav-header">{{ entry.text }}</li>
 			{% for link in entry.links %}
 			<li>
