@@ -2,7 +2,7 @@
 permalink:	/products/tree-kit-trinket/tutorial-without-switch/
 layout:		product_info
 title:		Tree-Kit-Trinket - Tutorial without switch
-sidebar:  'tree_kit_trinket'
+sidebar:    'tree-kit-trinket'
 ---
 ### Step 1 - Your kit
 

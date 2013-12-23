@@ -2,7 +2,7 @@
 permalink:	/products/tree-kit-trinket/
 layout:		product_info
 title:		Tree-Kit-Trinket
-sidebar:  'tree_kit_trinket'
+sidebar:    'tree-kit-trinket'
 ---
 Welcome to the Tree-Kit-Trinket wiki!
 

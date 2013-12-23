@@ -2,7 +2,7 @@
 permalink:	/products/tree-kit-trinket/common-problems/
 layout:		product_info
 title:		Tree-Kit-Trinket - Tutorial with switch
-sidebar:  'tree_kit_trinket'
+sidebar:    'tree-kit-trinket'
 ---
 Coming soon.
 
