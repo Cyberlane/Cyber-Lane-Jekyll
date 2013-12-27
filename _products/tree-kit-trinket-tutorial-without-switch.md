@@ -6,11 +6,9 @@ sidebar:    'tree-kit-trinket'
 ---
 ### Step 1 - Your kit
 
+--row--
 You should have a kit which looks similar to this
 --column--
-![001]
---row--
-
 Each kit comes with the following pieces:
 
 A) Tree circuit 1 - this is the board which will have the battery holders attached.
@@ -22,16 +20,18 @@ C) 2x CR2032 coincell batteries
 D) 12x LEDs (these will be the lights on the tree) - one leg is longer than the other: the longer leg goes into the top most hole with writing next to it, and the shorter leg in the other.
 
 E) 2x battery holders
+--row--
+![001]
 --column--
 ![002]
 --row--
 ### Step 2 - The battery holders
-
+--row--
 You begin by placing the battery holders into the holes on Tree circuit 1. Please take note to the shape of battery holder and the outline.
 --column--
-![003]
---row--
 Ensure that you place the square edge of the battery holder to the top where the outline matches.
+--row--
+![003]
 --column--
 ![004]
 --row--
