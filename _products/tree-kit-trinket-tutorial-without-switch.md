@@ -83,15 +83,11 @@ It is quite a snug fit, so might seem a bit tight. Don't worry though, it does f
 --column--
 ![015]
 --row--
-Once it's pushed in place, it looks as follows:
---column--
 Now we need to solder the tree together. On each of the four sides, there are some silver pads which need to be soldered together. To do this, you need to use the soldering iron to apply a big lump of solder onto each of the two sides. Once you have a nice big lump on each side, you can use the soldering iron to connect the two lumps.
---row--
-![016]
 --column--
-![017]
---row--
 Once the pads are connected, it will look like this:
+--row--
+![017]
 --column--
 ![018]
 --row--
