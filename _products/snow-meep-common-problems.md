@@ -2,7 +2,7 @@
 permalink:	/products/snow-meep/common-problems/
 layout:		product_info
 title:		Snow Meep - Common Problems
-sidebar:    'tree-kit-trinket'
+sidebar:    'snow-meep'
 ---
 Coming soon.
 
