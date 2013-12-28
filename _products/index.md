@@ -5,7 +5,7 @@ title:		Products
 products:
   -  title: 'Tree Kit Trinket'
      description: 'Electronic PCB Kit with a Christmas twist!'
-     wiki: /products/tree-kit-trinket/'
+     wiki: '/products/tree-kit-trinket/'
      img:
         src: '/Content/products/tree-kit-trinket.png'
         alt: 'tree-kit-trinket'
