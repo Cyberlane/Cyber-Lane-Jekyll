@@ -5,19 +5,19 @@ title:		Products
 products:
   -  title: 'Tree Kit Trinket'
      description: 'Electronic PCB Kit with a Christmas twist!'
-     wiki: 'https://github.com/Cyberlane/Tree-Kit-Trinket/wiki'
+     wiki: /products/tree-kit-trinket/'
      img:
         src: '/Content/products/tree-kit-trinket.png'
         alt: 'tree-kit-trinket'
   - title: 'Snow-Meep Kit'
     description: 'Soldering is easy Snow Man variant!'
-    wiki: 'https://github.com/Cyberlane/Snow-Meep/wiki'
+    wiki: '/products/snow-meep/'
     img:
         src: '/Content/products/snow-meep.png'
         alt: 'snow-meep'
   - title: 'Soldering Is Easy'
     description: 'Soldering is easy kit.'
-    wiki: 'https://github.com/Cyberlane/Soldering-is-easy/wiki'
+    wiki: '/products/soldering-is-easy/'
     img:
         src: '/Content/products/soldering-is-easy.png'
         alt: 'soldering-is-easy'
