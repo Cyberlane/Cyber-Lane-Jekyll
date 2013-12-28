@@ -1,7 +1,7 @@
 ---
-permalink:	/products/tree-kit-trinket/common-problems/
+permalink:	/products/snow-meep/common-problems/
 layout:		product_info
-title:		Tree-Kit-Trinket - Common Problems
+title:		Snow Meep - Common Problems
 sidebar:    'tree-kit-trinket'
 ---
 Coming soon.
