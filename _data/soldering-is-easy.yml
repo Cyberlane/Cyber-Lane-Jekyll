@@ -1,0 +1,8 @@
+-  text: 'Getting Started'
+   links:
+     -  text: 'Tutorial'
+        href: '/products/soldering-is-easy/tutorial/'
+-  text: 'Troubleshooting'
+   links:
+     -  text: 'Common Problems'
+        href: '/products/soldering-is-easy/common-problems/'
