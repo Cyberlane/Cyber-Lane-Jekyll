@@ -7017,6 +7017,9 @@ footer {
 .post-date time span.entry-day {
   font-size: 23px;
 }
+.big-28 {
+  font-size: 28px;
+}
 @media (max-width: 767px) {
   body {
     padding: 0;
