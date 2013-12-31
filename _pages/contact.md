@@ -14,4 +14,4 @@ Email: Justin [at] Cyber-Lane [dot] com
 [<i class="fa fa-google-plus big-28"></i>](https://plus.google.com/+JustinNel)
 [<i class="fa fa-youtube big-28"></i>](https://www.youtube.com/user/MrCyberlane/)
 [<i class="fa fa-github big-28"></i>](https://github.com/Cyberlane/)
-[<i class="fa fa-stack-overflow big-28></i>"](http://careers.stackoverflow.com/uk/cv/edit/100683)
+[<i class="fa fa-stack-overflow big-28"></i>](http://careers.stackoverflow.com/uk/cv/edit/100683)
