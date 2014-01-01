@@ -12,6 +12,7 @@ Check to see that the switch and the battery clips are on the same half of the t
 <hr />
 ### Brand new batteries, and the turns flash very dim for a mere moment before stopping
 This will happen when one of the LEDs is not wired in correctly, however if you look very closely at each LED you will notice there's a little slit on the positive side of the LED. You can use this to check your LEDs are in the right way around.
+
 ![LED-Closeup]
 
 [LED-Closeup]: /Content/products/soldering-is-easy/problems/P1010008.jpg
