@@ -12,6 +12,11 @@
    links:
      -  text: 'Common Problems'
         href: '/products/tree-kit-trinket/common-problems/'
+-  text: 'Reviews'
+   links:
+     -  text: 'Rob Englebright'
+        href: 'http://killer-carrot.blogspot.co.uk/2013/12/fake-plastic-trees.html'
+        target: '_blank'
 -  text: Where To Buy
    links:
      -  text: 'Etsy'

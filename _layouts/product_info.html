@@ -10,7 +10,11 @@ layout: default
 		<li class="nav-header">{{ entry.text }}</li>
 			{% for link in entry.links %}
 			<li>
+				{% if link.target != null %}
+				<a href="{{ link.href }}" target="{{ link.target }}">{{ link.text }}</a>
+				{% else %}
 				<a href="{{ link.href }}">{{ link.text }}</a>
+				{% endif %}
 			</li>
 			{% endfor %}
 		{% endfor %}
