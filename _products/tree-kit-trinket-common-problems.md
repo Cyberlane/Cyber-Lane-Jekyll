@@ -1,6 +1,6 @@
 ---
 permalink:	/products/tree-kit-trinket/common-problems/
-layout:		product_info
+layout:		common_problems
 title:		Tree-Kit-Trinket - Common Problems
 sidebar:    'tree-kit-trinket'
 ---
