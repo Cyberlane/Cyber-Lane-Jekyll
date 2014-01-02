@@ -6,3 +6,7 @@
    links:
      -  text: 'Common Problems'
         href: '/products/soldering-is-easy/common-problems/'
+-  text: 'Where To Buy'
+   links:
+     -  text: 'Tindie'
+        href: 'https://www.tindie.com/products/Cyberlane/soldering-is-easy-badge/'
