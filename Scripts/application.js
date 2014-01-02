@@ -1,9 +1,53 @@
 ﻿; (function (window, $) {
+
     var cyberlane = {
     	resize: function () {
         	$("#main-row").css("height", ($("body").height() - $("footer").height() - $(".masterhead").height()) + "px");
     	}
 	};
+
+    stLight.options({publisher: "d287f14e-dbfc-41bf-a926-bf3302f08e6c", doNotHash: true, doNotCopy: true, hashAddressBar: false});
+
+    var disqus_shortname  = 'justinn',
+        disqus_public_key = 'Hl3YIaVEk9PDz8DasK10a4CIV419VOhnp8efZIZu918ZhZaPUwdlv1chu0BjK4cp',
+        urlArray = [],
+        disqus_identifier = '{{ page.path | split:'/' | last | cgi_escape }}',
+        disqus_url        = '{{ site.url }}{{ page.url | uri_escape }}',
+        _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-5122877-1']);
+        _gaq.push(['_trackPageview']);
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    var load = function(src){
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = src;
+        var e = document.getElementsByTagName('script')[0]; e.parentNode.insertBefore(s, e);
+    };
+    load('//' + disqus_shortname + '.disqus.com/count.js');
+    if (document.getElementById('disqus_thread')) {
+        load('//' + disqus_shortname + '.disqus.com/embed.js');
+    }
+
+    $('comment-count').each(function(){
+        var url = $(this).attr('data-disqus-url');
+        urlArray.push('link:' + url);
+    });
+    if (urlArray.length > 0){
+        $.ajax({
+            type: 'GET',
+            url: 'https://disqus.com/api/3.0/threads/set.json',
+            data: { api_key: disqus_public_key, forum: disqus_shortname, thread: urlArray },
+            cache: false,
+            dataType: 'json',
+            success: function(result){
+                for (var i in result.response) {
+                    var count = results.response[i].posts + ((count === 1) ? ' comment' : ' comments');
+                    $('div[data-disqus-url="' + result.response[i].link + '"]').html(count);
+                }
+            }
+        });
+    }
 
     window.onresize = function (event) {
         cyberlane.resize();
