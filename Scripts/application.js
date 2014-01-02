@@ -11,8 +11,6 @@
     var disqus_shortname  = 'justinn',
         disqus_public_key = 'Hl3YIaVEk9PDz8DasK10a4CIV419VOhnp8efZIZu918ZhZaPUwdlv1chu0BjK4cp',
         urlArray = [],
-        disqus_identifier = '{{ page.path | split:'/' | last | cgi_escape }}',
-        disqus_url        = '{{ site.url }}{{ page.url | uri_escape }}',
         _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-5122877-1']);
         _gaq.push(['_trackPageview']);
