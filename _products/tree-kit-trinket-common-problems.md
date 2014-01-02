@@ -5,7 +5,7 @@ title:		Tree-Kit-Trinket - Common Problems
 sidebar:    'tree-kit-trinket'
 ---
 ### The LEDs are mostly red
-If the LEDs are mostly red, and the other colours have faded away, then your batteries need replacing. 
+If the LEDs are mostly red, and the other colours have faded away, then your batteries need replacing.
 <hr />
 ### The tree doesn't turn on at all!
 Check to see that the switch and the battery clips are on the same half of the tree. Unfortunately if they are not on the same side, it will not work at all. Fortunately, it's not too difficult to take the tree back apart to fix this, you just need to have access to a cheap solder sucker (around &pound;2 on eBay).
