@@ -27,7 +27,7 @@
         load('//' + disqus_shortname + '.disqus.com/embed.js');
     }
 
-    $('comment-count').each(function(){
+    $('.comment-count').each(function(){
         var url = $(this).attr('data-disqus-url');
         urlArray.push('link:' + url);
     });
