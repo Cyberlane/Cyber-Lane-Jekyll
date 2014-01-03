@@ -9,7 +9,7 @@
     stLight.options({publisher: "d287f14e-dbfc-41bf-a926-bf3302f08e6c", doNotHash: true, doNotCopy: true, hashAddressBar: false});
 
     var disqus_shortname  = 'justinn',
-        disqus_public_key = 'RiQil2V7PkeTUYG97xur1d9IklsTj33F9visWtZNLFIlslQzbmYIq4fk0AUAvqf3',
+        disqus_public_key = 'Hl3YIaVEk9PDz8DasK10a4CIV419VOhnp8efZIZu918ZhZaPUwdlv1chu0BjK4cp',
         urlArray = [],
         _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-5122877-1']);
@@ -35,7 +35,7 @@
         if (urlArray.length > 0){
             $.ajax({
                 type: 'GET',
-                url: 'https://disqus.com/api/3.0/threads/set.json',
+                url: 'https://disqus.com/api/3.0/threads/set.jsonp',
                 data: { api_key: disqus_public_key, forum: disqus_shortname, thread: urlArray },
                 cache: false,
                 dataType: 'json',
