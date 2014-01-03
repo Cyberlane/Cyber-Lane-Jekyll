@@ -27,7 +27,7 @@
         load('//' + disqus_shortname + '.disqus.com/embed.js');
     }
 
-    $(function(){
+    var countComments = function(){
         $('.comment-count').each(function(){
             var url = $(this).attr('data-disqus-url');
             urlArray.push('link:' + url);
@@ -47,7 +47,10 @@
                 }
             });
         }
-    });
+    };
+
+    countComments();
+    window.cc = countComments;
 
     window.onresize = function (event) {
         cyberlane.resize();
