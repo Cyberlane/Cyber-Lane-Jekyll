@@ -27,25 +27,27 @@
         load('//' + disqus_shortname + '.disqus.com/embed.js');
     }
 
-    $('.comment-count').each(function(){
-        var url = $(this).attr('data-disqus-url');
-        urlArray.push('link:' + url);
-    });
-    if (urlArray.length > 0){
-        $.ajax({
-            type: 'GET',
-            url: 'https://disqus.com/api/3.0/threads/set.json',
-            data: { api_key: disqus_public_key, forum: disqus_shortname, thread: urlArray },
-            cache: false,
-            dataType: 'json',
-            success: function(result){
-                for (var i in result.response) {
-                    var count = results.response[i].posts + ((count === 1) ? ' comment' : ' comments');
-                    $('div[data-disqus-url="' + result.response[i].link + '"]').html(count);
-                }
-            }
+    $(function(){
+        $('.comment-count').each(function(){
+            var url = $(this).attr('data-disqus-url');
+            urlArray.push('link:' + url);
         });
-    }
+        if (urlArray.length > 0){
+            $.ajax({
+                type: 'GET',
+                url: 'https://disqus.com/api/3.0/threads/set.json',
+                data: { api_key: disqus_public_key, forum: disqus_shortname, thread: urlArray },
+                cache: false,
+                dataType: 'json',
+                success: function(result){
+                    for (var i in result.response) {
+                        var count = results.response[i].posts + ((count === 1) ? ' comment' : ' comments');
+                        $('div[data-disqus-url="' + result.response[i].link + '"]').html(count);
+                    }
+                }
+            });
+        }
+    });
 
     window.onresize = function (event) {
         cyberlane.resize();
