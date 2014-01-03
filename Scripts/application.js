@@ -38,7 +38,7 @@
                 url: 'https://disqus.com/api/3.0/threads/set.jsonp',
                 data: { api_key: disqus_public_key, forum: disqus_shortname, thread: urlArray },
                 cache: false,
-                dataType: 'json',
+                dataType: 'jsonp',
                 success: function(result){
                     for (var i in result.response) {
                         var count = results.response[i].posts + ((count === 1) ? ' comment' : ' comments');
