@@ -49,7 +49,7 @@
         }
     };
 
-    countComments();
+    //countComments();
     window.cc = countComments;
 
     window.onresize = function (event) {
