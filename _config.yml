@@ -4,6 +4,7 @@ auto:         true
 server:       false
 server_port:  4000
 url:          'http://www.cyber-lane.com'
+domain:       'http://cyber-lane.com'
 author:       'Justin Nel'
 description:  'A blog for Justin Nel featuring instructions for electronic kits he makes to sell, electronic teardowns, hardware hacking, and more!'
 
