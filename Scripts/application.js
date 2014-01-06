@@ -30,7 +30,7 @@
     var countComments = function(){
         $('.comment-count').each(function(){
             var url = $(this).attr('data-disqus-url');
-            urlArray.push('link:' + window.siteurl + '/' + url + '/');
+            urlArray.push('link:' + window.siteurl + '/' + url);
         });
         if (urlArray.length > 0){
             $.ajax({
