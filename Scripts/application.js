@@ -42,7 +42,6 @@
                 success: function(result){
                     for (var i in result.response) {
                         var count = result.response[i].posts + ((count === 1) ? ' comment' : ' comments');
-                        console.log(result.response[i].link, count);
                         $('div[data-disqus-url="' + result.response[i].link + '"]').html(count);
                     }
                 }
@@ -50,6 +49,7 @@
         }
     };
 
+    //Need to style this nicely before uncommenting for the world to see!
     //countComments();
     window.cc = countComments;
 
