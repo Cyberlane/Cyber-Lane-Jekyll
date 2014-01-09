@@ -11,10 +11,7 @@
     var disqus_shortname  = 'justinn',
         disqus_public_key = 'Hl3YIaVEk9PDz8DasK10a4CIV419VOhnp8efZIZu918ZhZaPUwdlv1chu0BjK4cp',
         urlArray = [];
-
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    
     var load = function(src){
         var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = src;
         var e = document.getElementsByTagName('script')[0]; e.parentNode.insertBefore(s, e);
