@@ -10,10 +10,7 @@
 
     var disqus_shortname  = 'justinn',
         disqus_public_key = 'Hl3YIaVEk9PDz8DasK10a4CIV419VOhnp8efZIZu918ZhZaPUwdlv1chu0BjK4cp',
-        urlArray = [],
-        _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-5122877-1']);
-        _gaq.push(['_trackPageview']);
+        urlArray = [];
 
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
