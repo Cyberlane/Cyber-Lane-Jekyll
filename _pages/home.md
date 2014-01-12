@@ -21,9 +21,14 @@ I have a number of different projects on the go, and often they get put aside wh
 
 So here is a list of projects I have started, but not yet finished:
 
- - MP3 Player
-   - I have been working on building my own MP3 player which will read files from an SD card (initially), and play them out, but trying to keep the component count down to a minimum along with a low cost.
- - Mobile Charger
-   - I am working on a very simple and portable charging device, which will allow you to charge your iPod, or phone via USB while you're on the go. All you need to do is give it some batteries (AA, AAA, PP3, LiPo), and it will deliver the charge to your device. Primarily this is for people who are on the go, and don't have time to stop and charge their device. So people going hiking, music festivals, or just traveling. There is a similar device that you can buy from Adafruit Industries, called the MintyBoost. The main difference between my device and theirs is that theirs will only work with AA batteries and it simply performs a stable voltage boost. Mine will allow you to use a number of different batteries, and it will adjust the voltage up OR down, along with it's own case which will make it easy to clip your batteries into place.
- - Headphone Amplifier
-   - This is more of a personal project that has been ongoing for a while. Basically, modern devices (sold in the EU) have their volume limited, however I have hearing problems and this means that I do not get to properly enjoy my music. Wired headphones do not hold a limit, while wireless headphones do. So I have been playing around with different ideas for amplifiers which will allow me to boost volume (without distortion) with wired headphones, and perhaps modifying some other headphones to take the signal wirelessly and boosting it, as I really hate getting all these wires tangled up.
+#### MP3 Player
+
+I have been working on building my own MP3 player which will read files from an SD card (initially), and play them out, but trying to keep the component count down to a minimum along with a low cost.
+
+#### Mobile Charger
+
+I am working on a very simple and portable charging device, which will allow you to charge your iPod, or phone via USB while you're on the go. All you need to do is give it some batteries (AA, AAA, PP3, LiPo), and it will deliver the charge to your device. Primarily this is for people who are on the go, and don't have time to stop and charge their device. So people going hiking, music festivals, or just traveling. There is a similar device that you can buy from Adafruit Industries, called the MintyBoost. The main difference between my device and theirs is that theirs will only work with AA batteries and it simply performs a stable voltage boost. Mine will allow you to use a number of different batteries, and it will adjust the voltage up OR down, along with it's own case which will make it easy to clip your batteries into place.
+
+#### Headphone Amplifier
+
+This is more of a personal project that has been ongoing for a while. Basically, modern devices (sold in the EU) have their volume limited, however I have hearing problems and this means that I do not get to properly enjoy my music. Wired headphones do not hold a limit, while wireless headphones do. So I have been playing around with different ideas for amplifiers which will allow me to boost volume (without distortion) with wired headphones, and perhaps modifying some other headphones to take the signal wirelessly and boosting it, as I really hate getting all these wires tangled up.
