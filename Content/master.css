@@ -7032,3 +7032,26 @@ footer {
     height: 115px !important;
   }
 }
+.social {
+  padding: 4px;
+  border-radius: 17px;
+  color: #FFF;
+}
+.social .youtube {
+  background-color: #DF2826;
+}
+.social .facebook {
+  background-color: #005580;
+}
+.social .twitter {
+  background-color: #2CA1EB;
+}
+.social .g-plus {
+  background-color: #FF1414;
+}
+.social .stackoverflow {
+  background-color: #FE7A15;
+}
+.social .github {
+  background-color: #000;
+}
