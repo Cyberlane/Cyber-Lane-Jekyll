@@ -7037,6 +7037,9 @@ footer {
   border-radius: 17px;
   color: #FFF;
 }
+.social:hover {
+  text-decoration: none;
+}
 .social.youtube {
   background-color: #DF2826;
 }
