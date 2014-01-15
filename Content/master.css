@@ -7037,21 +7037,21 @@ footer {
   border-radius: 17px;
   color: #FFF;
 }
-.social .youtube {
+.social.youtube {
   background-color: #DF2826;
 }
-.social .facebook {
+.social.facebook {
   background-color: #005580;
 }
-.social .twitter {
+.social.twitter {
   background-color: #2CA1EB;
 }
-.social .g-plus {
+.social.g-plus {
   background-color: #FF1414;
 }
-.social .stackoverflow {
+.social.stackoverflow {
   background-color: #FE7A15;
 }
-.social .github {
+.social.github {
   background-color: #000;
 }
