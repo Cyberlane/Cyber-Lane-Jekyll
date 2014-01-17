@@ -7041,20 +7041,38 @@ footer {
   text-decoration: none;
 }
 .social.youtube {
-  background-color: #DF2826;
+  background-color: #df2826;
+}
+.social.youtube:hover {
+  color: #b71d1b;
 }
 .social.facebook {
   background-color: #005580;
 }
+.social.facebook:hover {
+  color: #00334d;
+}
 .social.twitter {
-  background-color: #2CA1EB;
+  background-color: #2ca1eb;
+}
+.social.twitter:hover {
+  color: #1487d0;
 }
 .social.g-plus {
-  background-color: #FF1414;
+  background-color: #ff1414;
+}
+.social.g-plus:hover {
+  color: #e00000;
 }
 .social.stackoverflow {
-  background-color: #FE7A15;
+  background-color: #fe7a15;
+}
+.social.stackoverflow:hover {
+  color: #df6101;
 }
 .social.github {
-  background-color: #000;
+  background-color: #333333;
+}
+.social.github:hover {
+  color: #1a1a1a;
 }

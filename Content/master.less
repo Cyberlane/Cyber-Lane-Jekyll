@@ -185,21 +185,47 @@ footer {
 .social:hover {
     text-decoration:none;
 }
+
+@youtubeColor:#DF2826;
+@facebookColor:#005580;
+@twitterColor:#2CA1EB;
+@gplusColor:#FF1414;
+@stackoverflowColor:#FE7A15;
+@githubColor:@grayDark;
+
 .social.youtube {
-    background-color:#DF2826;
+    background-color:@youtubeColor;
+}
+.social.youtube:hover {
+    color:darken(@youtubeColor, 10%);
 }
 .social.facebook {
-    background-color:#005580;
+    background-color:@facebookColor;
+}
+.social.facebook:hover {
+    color:darken(@facebookColor, 10%);
 }
 .social.twitter {
-    background-color:#2CA1EB;
+    background-color:@twitterColor;
+}
+.social.twitter:hover {
+    color:darken(@twitterColor, 10%);
 }
 .social.g-plus {
-    background-color:#FF1414;
+    background-color:@gplusColor;
+}
+.social.g-plus:hover {
+    color:darken(@gplusColor, 10%);
 }
 .social.stackoverflow {
-    background-color:#FE7A15;
+    background-color:@stackoverflowColor;
+}
+.social.stackoverflow:hover {
+    color:darken(@stackoverflowColor, 10%);
 }
 .social.github {
-    background-color:#000;
+    background-color:@githubColor;
+}
+.social.github:hover {
+    color:darken(@githubColor, 10%);
 }
