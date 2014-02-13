@@ -1,10 +1,11 @@
 ---
-layout:   post
-title:    Minor update
-category: blog
-updated:  2013-01-29
-location: Brighton, England
-tags: [DAC, MP3]
+layout:      post
+title:       Minor update
+category:    blog
+updated:     2013-01-29
+location:    Brighton, England
+tags:        [DAC, MP3]
+description: I have 40 MP3 decoder chips along with 40 matching DACs and ready to go
 ---
 
 So I have all 40 of my decoder chips, and the 40 matching DACs all ready to go. With the help of Jason Hotchkiss, I got one of each soldered to a breakout board so I can play with them on a breadboard. Friday I was busy with general chores and things that needed to be done, Saturday I was helping somebody move house followed by going to a concert in London. Sunday I was teaching polymorphisms and exception handling... So unfortunately I've just been a bit busy, but I have not been lazily avoiding the task at hand!

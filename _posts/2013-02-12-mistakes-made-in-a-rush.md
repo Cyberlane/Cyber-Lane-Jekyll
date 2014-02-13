@@ -1,10 +1,11 @@
 ---
-layout:   post
-title:    Mistakes made in a rush
-category: blog
-updated:  2013-02-12
-location: Brighton, England
-tags: [DAC, MP3, STA013, PIC16F1825, PIC]
+layout:      post
+title:       Mistakes made in a rush
+category:    blog
+updated:     2013-02-12
+location:    Brighton, England
+tags:        [DAC, MP3, STA013, PIC16F1825, PIC]
+description: Everybody makes mistakes, including me. Especially when I am in a rush
 ---
 
 So unfortunately, I ran out of time to complete this project for my original deadline, began to panic and made some stupid mistakes. One of the biggest mistakes I made was to make use of a voltage regulator where I should have been using a level converter...

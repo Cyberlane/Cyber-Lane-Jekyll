@@ -1,10 +1,11 @@
 ---
-layout:   post
-title:    Making Electronics Is Risky
-category: blog
-updated:  2013-12-18
-location: Brighton, England
-tags: [Kits, Ranting]
+layout:      post
+title:       Making Electronics Is Risky
+category:    blog
+updated:     2013-12-18
+location:    Brighton, England
+tags:        [Kits, Ranting]
+description: Making Electronics is a risky business, but can still be fun
 ---
 Just as the title says, it's really a risk business. Granted that I have only been making (to sell) my own kits for a very short period of time, I have learned a lot in a short period of time. It all comes down to risk. The first kits I made were the "Soldering is Easy" flower badges that I made for Brighton Mini Maker Faire 2013. {{ more }} I saw the design of the badge from 2012 (as I was one of the helpers on the stand in 2012), and really thought it was a bit too plain and boring for kids. So having volunteered to run the stand this year, I decided to take it upon myself to make a new design, something that was still quick and simple to put together, but also something that resembled something. I was playing around with ideas for a couple of weeks before I finally settled on the flower badge design. So I fired up [Eagle](http://www.cadsoftusa.com/download-eagle/) and slowly turned my idea into a circuit, and equally asking my friend [Adam Brunette](http://www.adambrunette.com/) to check my design as I had never used Eagle before (normally I would use [ExpressPCB](http://www.expresspcb.com/)).
 

@@ -1,10 +1,11 @@
 ---
-layout:   post
-title:    Wiring up the STA013, DAC and PIC (part 1)
-category: blog
-updated:  2013-01-30
-location: Brighton, England
-tags: [DAC, MP3, STA013, PIC16F1825, PIC]
+layout:      post
+title:       Wiring up the STA013, DAC and PIC (part 1)
+category:    blog
+updated:     2013-01-30
+location:    Brighton, England
+tags:        [DAC, MP3, STA013, PIC16F1825, PIC]
+description: Wiring up the STA013, DAC and PIC (part 1)
 ---
 
 I had my German tutor over this evening, so I did not get a chance to touch this circuit until an hour ago. So far I have hooked up my PIC16F1825 to programming pin headers and the colored blocks seen in the image below. Unfortunately I do not have a 14.7456MHz crystal so I am using a 16MHz for now - hopefully it either makes no major difference, but just to be safe I've placed an order for the other crystals which should arrive on Friday.
