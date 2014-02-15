@@ -2,6 +2,7 @@
 permalink: /
 layout:    default
 title:     Home
+tags:      [Cyber, Lane, Cyberlane, Cyber-Lane, Electronics, Kits, Maker, Badges, Soldering, Brighton, PIC16F1825]
 ---
 ### What is Cyber-Lane?
 
