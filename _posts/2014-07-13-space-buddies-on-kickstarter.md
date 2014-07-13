@@ -20,4 +20,4 @@ Anyway, I would love some support from anybody who can and even if you are unabl
 
 [https://www.kickstarter.com/projects/297710079/space-buddies](https://www.kickstarter.com/projects/297710079/space-buddies)
 
-[001]: https://s3.amazonaws.com/ksr/projects/1044982/photo-main.jpg?1405188780
+[001]: /Content/blog_images/kickstarter-space-buddies.jpg
