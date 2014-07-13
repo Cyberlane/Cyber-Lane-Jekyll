@@ -10,7 +10,7 @@ description: My first Kickstarter campaign is live!
 I have just launched my first Kickstarter campaign for an electronics kit which teaches more than just soldering.
 {{ more }}
 
-![001](https://www.kickstarter.com/projects/297710079/space-buddies)
+![001]
 
 The kit will teach you regular soldering, as well as surface mount. It also comes with a booklet teaching you everything you need to know about basic circuits, sound waves, controlling RGB LEDs, data transfer over infrared LEDs as well basic understanding of programming in C! The kit is completely open source, and the programming headers are exposed so you can completely change the game into whatever you want it to be!﻿
 
