@@ -2,7 +2,7 @@
 layout:      post
 title:       Nearing Completion
 category:    blog
-updated:     2008-02-08
+updated:     2008-03-29
 location:    Brighton, England
 tags:        [Status-Update]
 description: A little bit about me
