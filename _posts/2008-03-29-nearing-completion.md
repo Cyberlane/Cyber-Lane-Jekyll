@@ -5,7 +5,7 @@ category:    blog
 updated:     2008-03-29
 location:    Brighton, England
 tags:        [Status-Update]
-description: A little bit about me
+description: Nearing completion of this website
 ---
 Unfortunately I have been busy with a lot of other work which takes precidence over me completing this website.
 {{ more }}
