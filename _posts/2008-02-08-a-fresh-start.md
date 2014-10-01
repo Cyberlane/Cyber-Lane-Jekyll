@@ -4,7 +4,7 @@ title:       A Fresh Start
 category:    blog
 updated:     2008-02-08
 location:    Brighton, England
-tags:        [CAD, DXF, Diagram]
+tags:        [Status-Update]
 description: A little bit about me
 ---
 New hosting package, and new blog, so I guess I need to give a bit of a rundown about myself.
