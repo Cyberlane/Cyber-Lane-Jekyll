@@ -5,7 +5,7 @@ category:    blog
 updated:     2008-06-12
 location:    Brighton, England
 tags:        [LINQ, MVC, nHibernate, Resharper, ENDECA]
-description: A little bit about me
+description: A small learning curve, but I can handle it
 ---
 Well I have been working for William Reed for nearly a month now, and I must say I am loving it! I am learning so much, {{ more }} getting to play around with all the tech and such that I normally only get to mess around with in my free time, and get to speak to people who actually know what they are talking about!
 
