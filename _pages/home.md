@@ -14,4 +14,4 @@ Well I have already mentioned where I am from in the previous paragraph, but for
 
 ### What are you doing now?
 
-At the beginning of 2015 I emigrated from England to Sweden, and now I am work as a Ninja for [tretton37](www.tretton37.com).
+At the beginning of 2015 I emigrated from England to Sweden, and now I am work as a Ninja for [tretton37](http://www.tretton37.com/).
