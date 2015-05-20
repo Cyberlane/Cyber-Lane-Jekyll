@@ -6,7 +6,7 @@ server_port:  4000
 url:          'http://www.cyber-lane.com'
 domain:       'http://cyber-lane.com'
 author:       'Justin Nel'
-description:  'Cyber-Lane is A blog for Justin Nel featuring his thoughts, instructions for electronic kits he has designed, teardowns, hardware hacking, and more!'
+description:  'Cyber-Lane is a blog for Justin Nel featuring his thoughts, instructions for electronic kits he has designed, teardowns, hardware hacking, and more!'
 
 source:              .
 destination:         ./_site
