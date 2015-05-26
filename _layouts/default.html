@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 {% assign description = page.description %}{% if description == null %}{% assign description = site.description %}{% endif %}
 {% if page.tags %}{% assign keywords = page.tags | join: ',' %}{% else %}{% assign keywords = page.categories | join: ',' %}{% endif %}
-<html lang="en" dir="ltr" xmlns:fb="http://ogp.me/ns/fb#">
+<html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="content-type" content="text/html;" />
