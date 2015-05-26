@@ -4,7 +4,7 @@ title:       Progress Reports
 category:    blog
 updated:     2014-04-03
 location:    Brighton, England
-tags:        [General Chat, Progress Reports]
+tags:        [General-Chat, Progress-Reports]
 description: Talking about how often I do progress reports
 ---
 
