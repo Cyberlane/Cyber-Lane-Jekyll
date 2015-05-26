@@ -7,7 +7,7 @@ title: Blog
 {% if forloop.index > 1 %}
 <hr />
 {% endif %}
-<h2 class="post-title">
+<div class="post-title">
 	<div class="post-date">
 		<time class="entry-date" datetime="{{ post.date | date:'%B %-d, %Y' }}">
 			<span class="entry-day">{{ post.date | date:'%-d' }}</span>
@@ -17,7 +17,7 @@ title: Blog
 	</div>
 	<a href="{{ post.url }}">{{ post.title }}</a>
 	<div class="comment-count" data-disqus-url="{{ site.domain | append: post.url }}"></div>
-</h2>
+</div>
 <p class="post-meta">
 	<div class="tag_wrapper">
 		<span class="glyphicon glyphicon-tag"></span> tags
