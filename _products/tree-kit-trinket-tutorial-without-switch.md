@@ -5,7 +5,6 @@ title:		Tree-Kit-Trinket - Tutorial without switch
 sidebar:    'tree-kit-trinket'
 ---
 ### Step 1 - Your kit
-
 --row--
 You should have a kit which looks similar to this
 --column--
