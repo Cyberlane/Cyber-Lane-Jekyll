@@ -2,7 +2,7 @@
 layout: default
 ---
 	<div class="post-date">
-		<time class="entry-date" datetime="{{ page.date | date:'%B %-d, %Y' }}">
+		<time class="entry-date" datetime="{{ page.date | date_to_xmlschema }}">
 			<span class="entry-day">{{ page.date | date:'%-d' }}</span>
 			<span class="entry-month">{{ page.date | date:'%b' }}</span>
 			<span class="entry-year">{{ page.date | date:'%Y' }}</span>
