@@ -24,7 +24,7 @@ layout: default
 <div>
 	{% assign rows = content | split:'&ndash;row&ndash;' %}
 	{% for row in rows %}
-	<div class="row-fluid">
+	<div class="row-fluid"><p>
 	{% assign cols = row | split:'&ndash;column&ndash;' %}
 	{% if cols.size == 1 %}
 	{{ row }}
