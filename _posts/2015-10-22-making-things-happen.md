@@ -18,7 +18,7 @@ Anyway, until I begin with my useful posts covering things I have to share, here
 - Learned a load of Swedish and Danish words
 - Visited Poland
 - Backpacked around Japan
-- Was interviewed in the fashion capital of Tokyo, Japan for my style
+- Was [interviewed](http://harajukutokyo.jp/?p=5131) in the fashion capital of Tokyo, Japan for my style
 - Attended a coding hackathon in Spain
 - Was on the speaker's committee for the large tech conference [Leetspeak 2015](http://www.leetspeak.se/2015/) which was held in Stockholm
 - Learned [NancyFX](http://www.nancyfx.org/)
