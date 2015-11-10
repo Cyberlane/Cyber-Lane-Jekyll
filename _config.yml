@@ -15,7 +15,10 @@ plugins:             ./_plugins
 future:              true
 lsi:                 false
 pygments:            false
-markdown:            rdiscount
+markdown:            redcarpet
+highlighter:         pygments
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 permalink:           '/blog/:year/:title'
 pagination_path:     '/blog/page:num/'
 include:             ['_pages','_products']
@@ -33,7 +36,7 @@ kramdown:
   entity_output:    as_char
   toc_levels:       1..6
   use_coderay:      false
-  
+
   coderay:
     coderay_wrap:               div
     coderay_line_numbers:       inline
