@@ -11,10 +11,23 @@ Starting with the basics, we are going to create an XML Document/Object with Jav
 {{ more }}
 In short, Internet Explorer makes use of ActiveX to create XML, while other browsers have something called DOMParser. Now as it's not the same on every browser, we are best to create a function to create our object, and handle all the browser issues.
 
-<script src="https://gist.github.com/Cyberlane/bd16df8b474aebefd772.js"></script>
+```javascript
+jQuery.strToXML = function(s) {
+  var xmlDoc;
+  if (window.ActiveXObject) {
+    xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+    xmlDoc.async = "false";
+    xmlDoc.loadXML(s);
+  } else {
+    xmlDoc = (new DOMParser()).parseFromString(s, "text/xml");
+  }
+}
+```
 
 Usage:
 
-<script src="https://gist.github.com/Cyberlane/f93b79cb3df6f05ab108.js"></script>
+```javascript
+var xmlDoc = $.strToXML("");
+```
 
 Due to the nature of how you create the object, you can as you may have noticed also convert a regular string into an XML document (given that it is correctly structured obviously). You now have an XML Document/Object, now you can fill it up with a structure and some data.

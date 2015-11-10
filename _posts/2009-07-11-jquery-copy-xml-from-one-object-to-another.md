@@ -11,44 +11,124 @@ Today I am going to go through, how to copy some XML structure and data from one
 {{ more }}
 First off, we need to add a function created by John Resig (http://ejohn.org/blog/javascript-array-remove/), which will allow us to remove items from an array.
 
-<script src="https://gist.github.com/Cyberlane/806c212d2877becc12f5.js"></script>
+```javascript
+Array.prototype.remove = function(fr, to) {
+  var rest = this.slice((to || from) + 1 || this.length);
+  this.length = from &lt; 0 ? this.length + from : from;
+  return this.push.apply(this, rest);
+};
+```
 
 And now we need to extend our XML to string function, as in good XML you tend to get the first line starting with double quotes.
 
-<script src="https://gist.github.com/Cyberlane/e9e9c25d6880e7a2bf14.js"></script>
+```javascript
+jQuery.XMLtoString = function(xmlData) {
+  var xData;
+  var xSplit;
+  if (window.ActiveXObject) {
+    xData = xmlData.xml;
+  } else {
+    xData = (new XMLSerializer()).serializeToString(xmlData);
+  }
+  xSplit = xData.split('\r\n');
+  if (xSplit[0].substr(0, 5) == '')
+    xSplit.remove(0);
+  return xSplit.join('\r\n');
+}
+```
 
 Now I have only just thrown this together, it works, however I will be making some changes to it at a later date by making use of some Regex, as well as giving you the ability to re-add the line you are removing. Anyway, let's give an example XML structure:
 
-<script src="https://gist.github.com/Cyberlane/6a26b6794817ff491a5d.js"></script>
+```xml
+<labels>
+  <label added="2003-06-10" id="ep">
+    <name>Ezra Pound</name>
+    <address id="1">
+      <street>45 Usura Place</street>
+      <city>Hailey</city>
+      <province>ID</province>
+    </address>
+  </label>
+  <label added="2003-06-20" id="tse">
+    <name>Thomas Eliot</name>
+    <address id="2">
+      <street>3 Prufrock Lane</street>
+      <city>Stamford</city>
+      <province>CT</province>
+    </address>
+  </label>
+  <label added="2004-11-01" id="lh">
+    <name>Langston Hughes</name>
+    <address id="3">
+      <street>10 Bridge Tunnel</street>
+      <city>Harlem</city>
+      <province>NY</province>
+    </address>
+  </label>
+</labels>
+```
 
 Scenario:
 
 You want to copy all of the address tags, including all attributes and child nodes, onto a new location on a different XML object. Resulting in something like this:
 
-<script src="https://gist.github.com/Cyberlane/5cedad4b582f845bc5f1.js"></script>
+```xml
+<locations>
+  <address id="1">
+    <street>45 Usura Place</street>
+    <city>Hailey</city>
+    <province>ID</province>
+  </address>
+  <address id="2">
+    <street>3 Prufrock Lane</street>
+    <city>Stamford</city>
+    <province>CT</province>
+  </address>
+  <address id="3">
+    <street>10 Bridge Tunnel</street>
+    <city>Harlem</city>
+    <province>NY</province>
+  </address>
+</locations>
+```
 
 This is a fairly easy task, however the way you go about doing it, is not very obvious. Let's say you have done your AJAX request, received your XML, and have now passed the xml to your function. Here's what you should have inside your function.
 
 Firstly, we need to convert our XML into a string (with the modified function), find our "address" tags, and convert the string into an object. You can do that all in a single line:
 
-<script src="https://gist.github.com/Cyberlane/60f45faafb7936d9f3de.js"></script>
+```javascript
+var xData = $($.XMLtoString(xml)).find("address");
+```
 
 If you are not already aware of this, encapsulating a string with $(), converts it to an object (with jQuery).
 
 Now we have all the data we want from the XML document, but we need to create our new XML document to contain the data within. Now for some reason (which I am yet to investigate), the first element in a newly created object is removed upon creation, so we need to keep this in mind when creating it. We want a root of "", so we need to add a dummy node above that so that our one is not removed. Our code will look like this:
 
-<script src="https://gist.github.com/Cyberlane/6a1c8397584d4d911700.js"></script>
+```javascript
+var xDoc = $("");
+```
 
 Next we need to specify where inside this new document, to inject our original data, which is done with a simple find() like so:
 
-<script src="https://gist.github.com/Cyberlane/25dc1a2cf456c89b4a56.js"></script>
+```javascript
+xDoc.find("locations").append(xData);
+```
 
 That's it, our data has been added to the new object. You can print it out to a textarea to view the results by calling the .html() function on the new document, so something like this:
 
-<script src="https://gist.github.com/Cyberlane/9aa00cf4bc072fe876b2.js"></script>
+```javascript
+$("#output").text(xDoc.html());
+```
 
 Here is what the resulting function would look like:
 
-<script src="https://gist.github.com/Cyberlane/a53872637518eb869fd1.js"></script>
+```javascript
+function parseXml(xml) {
+  var xData = $($.XMLtoString(xml)).find("address");
+  var xDoc = $("");
+  xDoc.find("locations").append(xData);
+  $("#output").text(xDoc.html());
+}
+```
 
 As I said earlier, it's not very obvious, but when you know what to do, it's actually quite an easy task.

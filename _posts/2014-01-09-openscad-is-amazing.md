@@ -13,7 +13,36 @@ Today I am going to be going over a project I have taken on. When I was a kid I 
 
 So after a bit of thought, I wasn't sure how best to design this other than on a bit of paper. I used to be really good with 3D Studio Max, but unfortunately stopped using it a good few years ago (at least 10) and everything else out isn't all that simple to throw something together in my opinion. It then struck me... a friend told me about an application called OpenSCAD, where you write simple code and it draws objects in 3D space. I thought I would give it a quick try, and it seems to do the job perfectly! Here's the code used to make my IKEA bed frame into a 3D model...
 
-<script src="https://gist.github.com/Cyberlane/ef76f18622075f6e1c9b.js"></script>
+```OpenSCAD
+module bed_frame() {
+	union() {
+		translate([0,0,0]) {
+			cube([156.7,5.2,30]);
+		}
+		translate([149.2,5.2,25]) {
+			cube([7.5,201,5]);
+		}
+		translate([0,5.2,25]) {
+			cube([7.5,201,5]);
+		}
+		translate([3,5.2,12.5]) {
+			cube([4.5,201,17.5]);
+		}
+		translate([149.2,5.2,12.5]){
+			cube([4.5,201,17.5]);
+		}
+		translate([0,206.2,0]) {
+			cube([156.7,5,78]);
+		}
+	}
+}
+
+translate([0,0,0]) {
+	color("Brown", 0.6) {
+		bed_frame();
+	}
+}
+```
 
 ...and here is what that code makes
 
