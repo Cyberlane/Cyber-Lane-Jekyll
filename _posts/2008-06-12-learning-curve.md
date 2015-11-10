@@ -9,7 +9,7 @@ description: A small learning curve, but I can handle it
 ---
 Well I have been working for William Reed for nearly a month now, and I must say I am loving it! I am learning so much, {{ more }} getting to play around with all the tech and such that I normally only get to mess around with in my free time, and get to speak to people who actually know what they are talking about!
 
-So far, I have learned jQuery (I used to be highly proficient in JavaScript, but now I can code even more, in less time), even wrote my own jQUery Plugin. I have also been learning LINQ, MVC, nHibernate, Resharper, and a few other bits. I am to also learn ENDECA very soon, which looks like a very interesting item to work with.
+So far, I have learned jQuery (I used to be highly proficient in JavaScript, but now I can code even more, in less time), even wrote my own jQuery Plugin. I have also been learning LINQ, MVC, nHibernate, Resharper, and a few other bits. I am to also learn ENDECA very soon, which looks like a very interesting item to work with.
 
 I am already making good use of all this knowledge, as they keep giving me small projects to try out, while they train me up.
 

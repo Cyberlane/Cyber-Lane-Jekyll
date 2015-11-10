@@ -9,7 +9,7 @@ description: Summary of events at Brighton Mini Maker Faire 2013
 ---
 I had a great time at the Brighton Mini Maker Faire today.
 
-We unfortunately sold out of the Soldering Is Easy kits, and not everybody got to build one. I will however be making more of the flower badges, as well as a variety of others. Please contact me if you would like to purchase a kit. Unique kits, collaborative designs and customisations are available for bigger orders. Contact me for futher details.
+We unfortunately sold out of the Soldering Is Easy kits, and not everybody got to build one. I will however be making more of the flower badges, as well as a variety of others. Please contact me if you would like to purchase a kit. Unique kits, collaborative designs and customizations are available for bigger orders. Contact me for further details.
 {{ more }}
 Email: <Justin@Cyber-Lane.com>
 

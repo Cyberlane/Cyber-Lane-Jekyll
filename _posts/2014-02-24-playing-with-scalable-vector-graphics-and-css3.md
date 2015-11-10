@@ -7,7 +7,7 @@ location:    Brighton, England
 tags:        [CSS, SVG, HTML5, Espruino]
 description: Converting my logo into pure CSS and an SVG
 ---
-I haven't been posted often enough this year! Let's get out of that bad habbit by starting with some of the things I have been working on. Currently I am thinking of making some further tweaks to my web site, as I am still not really happy with it yet ( I won't go into full detail though ). Anyway, as an excuse to improve my knowledge around CSS3, I thought I would try my hand {{ more }} at converting my logo into pure CSS.
+I haven't been posted often enough this year! Let's get out of that bad habit by starting with some of the things I have been working on. Currently I am thinking of making some further tweaks to my web site, as I am still not really happy with it yet ( I won't go into full detail though ). Anyway, as an excuse to improve my knowledge around CSS3, I thought I would try my hand {{ more }} at converting my logo into pure CSS.
 
 - Attempt 1 was the way I originally knew (which took the longest funnily enough), with multiple HTML elements and styling upon each of those.
 - Attempt 2 was with a single HTML element, and a LOT of CSS stylings upon it, making use of multiple gradients, and other tweaks to trick the browser into giving me what I wanted.

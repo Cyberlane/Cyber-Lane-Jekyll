@@ -7,7 +7,7 @@ location:    Brighton, England
 tags:        [jQuery, XML, Tutorial]
 description: A tutorial on copying data from XML objects
 ---
-Today I am going to go through, how to copy some XML structure and data from one XML object to another XML object. Now from what I have noticed when making use of jQuery, I have seen that it does not actually support XML as such, while it does support XHTML formatted in an XML structure. So in essense, we will be converting our XML object into an XHTML object, do all of our changes, and then convert it back. This may sound a bit long winded, but it's actually not as bad as it sounds.
+Today I am going to go through, how to copy some XML structure and data from one XML object to another XML object. Now from what I have noticed when making use of jQuery, I have seen that it does not actually support XML as such, while it does support XHTML formatted in an XML structure. So in essence, we will be converting our XML object into an XHTML object, do all of our changes, and then convert it back. This may sound a bit long winded, but it's actually not as bad as it sounds.
 {{ more }}
 First off, we need to add a function created by John Resig (http://ejohn.org/blog/javascript-array-remove/), which will allow us to remove items from an array.
 

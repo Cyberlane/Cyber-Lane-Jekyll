@@ -11,4 +11,4 @@ Once again, I have been really busy with numerous different things. I have been 
 
 I am also going to be starting a new job at William Reed Business Media, as a Junior Online Solutions Developer. I am looking forward to playing around with all the new ideas and new technology they work with, which will include Microsoft Silverlight.
 
-When I get a bit more time, I will do a bit more of a global update on everything on this website, but unfortunately I have been away either working or travelling.
+When I get a bit more time, I will do a bit more of a global update on everything on this website, but unfortunately I have been away either working or traveling.

@@ -7,7 +7,7 @@ location:    Brighton, England
 tags:        [CartoLogix, XNA, .NET]
 description: Another big progress update
 ---
-It's been quite a while since I've made a blog post, I haven't forgot about my blog, however I have been constantly busy with numerous other things! I am finally starting to get everything organised, so updates should start to become a bit more regular (finally!).
+It's been quite a while since I've made a blog post, I haven't forgot about my blog, however I have been constantly busy with numerous other things! I am finally starting to get everything organized, so updates should start to become a bit more regular (finally!).
 {{ more }}
 So let's update some of the projects I currently have running, and their status:
 
@@ -28,6 +28,6 @@ W3R File Parser/Blogger, is a small project I have undertaken. I was asked to cr
 
 XNA RTS Game, a Real Time Strategy game I am currently developing with Microsoft's XNA Framework. I have a full development team on this project, of which, I am the lead programmer. I will be making use of the Lua Scripting language for this project, and releasing the game on the Xbox 360 Marketplace.
 
-.NET MVC Forum Software, something I have wanted to do for ages is write my own Forum Software, a good software package, which is written in .NET, offers a lot of flexability, ease of use, stability, and it best of all, open source (free to use).
+.NET MVC Forum Software, something I have wanted to do for ages is write my own Forum Software, a good software package, which is written in .NET, offers a lot of flexibility, ease of use, stability, and it best of all, open source (free to use).
 
 That covers pretty much everything that is going on at the moment, I also need to redesign my homepage at some point, as the scale of work I am now undertaking has come to be a bit too much for the current design to handle.

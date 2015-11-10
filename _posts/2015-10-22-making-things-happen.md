@@ -4,7 +4,7 @@ title:       Making things happen
 category:    blog
 updated:     2015-10-22
 location:    Lund, Sweden
-tags:        [Training, Travelling, Learning, Doing, Making, Progressing, Achieving]
+tags:        [Training, Traveling, Learning, Doing, Making, Progressing, Achieving]
 description: A lot has happened in the past few months and here is a break down
 ---
 This year has been one heck of a ride, almost completed another year completed and things are still extremely active and busy! So much has happened in these past few months, along with my attitude on life, and so far I have had nothing but great experiences as a result. The problem is finding time to share {{ more }} my experiences on a blog post for everybody else to read.

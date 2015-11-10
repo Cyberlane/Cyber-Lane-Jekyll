@@ -17,9 +17,9 @@ My name is Justin Nel, I'm a software developer, but I also dabble in graphic de
 - JavaScript (Including AJAX)
 - PHP
 
-At my dayjob, I've only recently started to do software development (the previous 3-4 years, I've been doing Database Design/Data Manipulation), but for the last 6 years I have done a lot of different freelance jobs, for numerous different clients, a summary of the projects include:
+At my day job, I've only recently started to do software development (the previous 3-4 years, I've been doing Database Design/Data Manipulation), but for the last 6 years I have done a lot of different freelance jobs, for numerous different clients, a summary of the projects include:
 
-- Website Content Management System Design and Implimentation (XHTML/AJAX/PHP/MySQL)
+- Website Content Management System Design and Implementation (XHTML/AJAX/PHP/MySQL)
 - Database Content Management System Design and Implementation (C#/XML/MSSQL)
 - ActiveX/UserControl Design and Implementation (C#/XHTML/AJAX/XML/MSSQL)
 - I'm currently designing a couple of software applications which should appear on the website in the near future.

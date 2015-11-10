@@ -18,7 +18,7 @@ This post is more of an introduction of what I am working on more than anything 
 
 Obviously there is a power source to take into account, which depending on where you are presenting to the circuit may need a voltage regulator. None the less, it's an amazing little device.
 
-It works on the FAT16 file system, and makes use of SPI to communite to the SD card, along with Pulse Wave Modulation to play the actual audio. Now the FAT16 file system unfortunately has a 4GB disk size limit, but for a lot of simple electronics projects this is more than enough. There is also a a limit of 512 files per folder, which really isn't much of a problem either, however Chris' implementation does not support sub folders. This is where I come in.
+It works on the FAT16 file system, and makes use of SPI to communicate to the SD card, along with Pulse Wave Modulation to play the actual audio. Now the FAT16 file system unfortunately has a 4GB disk size limit, but for a lot of simple electronics projects this is more than enough. There is also a a limit of 512 files per folder, which really isn't much of a problem either, however Chris' implementation does not support sub folders. This is where I come in.
 
 I am looking to make a number of changes to this project, and my improvements will be as follows:
 

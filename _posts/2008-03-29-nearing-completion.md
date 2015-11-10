@@ -7,7 +7,7 @@ location:    Brighton, England
 tags:        [Status-Update]
 description: Nearing completion of this website
 ---
-Unfortunately I have been busy with a lot of other work which takes precidence over me completing this website.
+Unfortunately I have been busy with a lot of other work which takes precedence over me completing this website.
 {{ more }}
 However I am now slowly finishing it all off, I`ve just about finished the Home page, and Blog, just need to make a few tweaks. I need to sit down with my friend who is a technical writer to sort out the Products and Portfolio sections, and I should hopefully have the Contact form completed today at some point.
 
