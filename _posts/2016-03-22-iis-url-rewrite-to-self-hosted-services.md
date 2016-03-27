@@ -24,7 +24,7 @@ Visit your default website's folder, and if there is not already a `web.config` 
     <rules>
         <rule name="MyUniqueRuleName" stopProcessing="true">
             <match url="^API/(.*)" />
-            <action type="Rewrite" url="http://localhost:45000/{R:1}" logRewrittenRule=true" />
+            <action type="Rewrite" url="http://localhost:45000/{R:1}" logRewrittenRule="true" />
         </rule>
     </rules>
 </rewrite>
