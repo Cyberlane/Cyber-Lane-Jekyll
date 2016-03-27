@@ -1,8 +1,8 @@
 name:         'Cyber-Lane'
 safe:         true
-auto:         true
-server:       false
-server_port:  4000
+#auto:        true
+#server:      false
+port:         4000
 url:          'http://www.cyber-lane.com'
 domain:       'http://cyber-lane.com'
 author:       'Justin Nel'
@@ -10,29 +10,26 @@ description:  'Cyber-Lane is a blog for Justin Nel featuring his thoughts, instr
 
 source:              .
 destination:         ./_site
-plugins:             ./_plugins
+plugins_dir:         ./_plugins
+gems:                [jekyll-paginate]
 
 future:              true
 lsi:                 false
-pygments:            false
-markdown:            rdiscount
-permalink:           '/blog/:year/:title'
-pagination_path:     '/blog/page:num/'
+highlighter:         false
+markdown:            kramdown
+#permalink:           '/blog/:year/:title'
 include:             ['_pages','_products']
 relative_permalinks: false
 paginate:            10
 paginate_path:       '/blog/page:num/'
 excerpt_separator:   '{{ more }}'
 
-rdiscount:
-  extensions: [smart]
-
 kramdown:
   auto_ids:         true,
   footnote_nr:      1
   entity_output:    as_char
   toc_levels:       1..6
-  use_coderay:      false
+  enable_coderay:      false
 
   coderay:
     coderay_wrap:               div
