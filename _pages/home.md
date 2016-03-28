@@ -15,6 +15,6 @@ Originally born in Jo'burg, South Africa, moved to England at the age of 16, rem
 
 ### What are you doing now?
 
-At the beginning of 2015 I emigrated from England to Sweden, and now I am work as a Ninja for [tretton37](http://www.tretton37.com/).
+At the beginning of 2015 I emigrated from England to Sweden, and now I am working as a Ninja for [tretton37](http://www.tretton37.com/).
 
-I spend almost every lunch break at the gym, and have spent most of 2015 clearing my backlog of things I want to do, instead of doing new and cool things. A clear mind holds no obstacles against challenges that may be faced in the future.
+I spend almost every lunch break at the gym, and spent most of 2015 clearing my backlog of things I want to do, instead of doing new and cool things. A clear mind holds no obstacles against challenges that may be faced in the future.
