@@ -8,7 +8,7 @@ tags:        [CSharp, Coding, Nancy, NancyFX, Services, File Upload, Async, Awai
 description: Receiving uploaded files from Nancy and sending them to another web service
 ---
 
-I was playing around with a small project yesterday evening, where I was receiving uploaded files to my NancyFX service but needed to send those on to another web service, but this was not as simple as I had hoped. {{ more })
+I was playing around with a small project yesterday evening, where I was receiving uploaded files to my NancyFX service but needed to send those on to another web service, but this was not as simple as I had hoped. {{ more }}
 
 So originally I had hoped there would be a content type you could send to the `HttpClient` object, which would allow you to add an array of files to be sent and it would just work, but unfortunately it was not that simple.
 
