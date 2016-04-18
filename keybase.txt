@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/cyberlane
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://cyber-lane.com
+  * I am cyberlane (https://keybase.io/cyberlane) on keybase.
+  * I have a public key ASBpBQkmoUrchmgjzqVFkPprQCDvxxfQVyJsRO8AYTkFJgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101e305b7125573e501d8d53c159b6c11c627c7ca293ab95449628a9b62d34a2fbe0a",
+            "host": "keybase.io",
+            "kid": "012069050926a14adc866823cea54590fa6b4020efc717d057226c44ef00613905260a",
+            "uid": "bd9c5865046645bc95dfd4cbd3253a19",
+            "username": "cyberlane"
+        },
+        "service": {
+            "hostname": "cyber-lane.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.14"
+    },
+    "ctime": 1460967716,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1460967477,
+        "hash": "118e1ccc1446acccfa4eac145bb35d94047a9e3dbea86fb93872a9aaa7012d6acdb1e77a8d453877687b58c296fd4a224772863d1373af9f7dcb6953dc9d3f33",
+        "seqno": 445320
+    },
+    "prev": "e2fa7f48d7ddc586447f1b53ef122e415abcc0604120bfcfc5b1b106f640c3d8",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgaQUJJqFK3IZoI86lRZD6a0Ag78cX0FcibETvAGE5BSYKp3BheWxvYWTFAvZ7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxZTMwNWI3MTI1NTczZTUwMWQ4ZDUzYzE1OWI2YzExYzYyN2M3Y2EyOTNhYjk1NDQ5NjI4YTliNjJkMzRhMmZiZTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjkwNTA5MjZhMTRhZGM4NjY4MjNjZWE1NDU5MGZhNmI0MDIwZWZjNzE3ZDA1NzIyNmM0NGVmMDA2MTM5MDUyNjBhIiwidWlkIjoiYmQ5YzU4NjUwNDY2NDViYzk1ZGZkNGNiZDMyNTNhMTkiLCJ1c2VybmFtZSI6ImN5YmVybGFuZSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiY3liZXItbGFuZS5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE0In0sImN0aW1lIjoxNDYwOTY3NzE2LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NjA5Njc0NzcsImhhc2giOiIxMThlMWNjYzE0NDZhY2NjZmE0ZWFjMTQ1YmIzNWQ5NDA0N2E5ZTNkYmVhODZmYjkzODcyYTlhYWE3MDEyZDZhY2RiMWU3N2E4ZDQ1Mzg3NzY4N2I1OGMyOTZmZDRhMjI0NzcyODYzZDEzNzNhZjlmN2RjYjY5NTNkYzlkM2YzMyIsInNlcW5vIjo0NDUzMjB9LCJwcmV2IjoiZTJmYTdmNDhkN2RkYzU4NjQ0N2YxYjUzZWYxMjJlNDE1YWJjYzA2MDQxMjBiZmNmYzViMWIxMDZmNjQwYzNkOCIsInNlcW5vIjo4LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQGBGCdA9vgnVRrm5TESnfoP6XBBb+2AmuecadtONf3FXZO5LUfE3Z8pCfDRmojKn3RXoFCexI9U4N7mNHZ+bDwCoc2lnX3R5cGUgo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cyberlane
+
+==================================================================
