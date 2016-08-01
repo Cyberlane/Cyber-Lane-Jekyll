@@ -3,8 +3,8 @@ safe:         true
 #auto:        true
 #server:      false
 port:         4000
-url:          'http://www.cyber-lane.com'
-domain:       'http://cyber-lane.com'
+url:          'https://www.cyber-lane.com'
+domain:       'https://cyber-lane.com'
 author:       'Justin Nel'
 description:  'Cyber-Lane is a blog for Justin Nel featuring his thoughts, instructions for electronic kits he has designed, teardowns, hardware hacking, and more!'
 
