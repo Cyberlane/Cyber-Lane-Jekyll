@@ -6,8 +6,6 @@
         }
     };
 
-    stLight.options({publisher: "d287f14e-dbfc-41bf-a926-bf3302f08e6c", doNotHash: true, doNotCopy: true, hashAddressBar: false});
-
     var disqus_shortname  = 'justinn',
         disqus_public_key = 'Hl3YIaVEk9PDz8DasK10a4CIV419VOhnp8efZIZu918ZhZaPUwdlv1chu0BjK4cp',
         urlArray = [];
