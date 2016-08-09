@@ -146,13 +146,7 @@
             var disqus_identifier = '{{ page.path | split:'/' | last | cgi_escape }}',
                 disqus_url        = '{{ site.url }}{{ page.url | uri_escape }}',
                 siteurl           = '{{ site.url }}',
-                sitedomain        = '{{ site.domain }}',
-                _gaq = _gaq || [];
-                _gaq.push(['_setAccount', 'UA-5122877-1']);
-                _gaq.push(['_trackPageview']);
-                var gaLink = document.createElement('script'); gaLink.type = 'text/javascript'; gaLink.async = true;
-                gaLink.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gaLink, s);
+                sitedomain        = '{{ site.domain }}';
         </script>
         <noscript>
             <iframe src="//www.googletagmanager.com/ns.html?id=GTM-TCKZV4" height="0" width="0" style="display:none;visibility:hidden"></iframe>
