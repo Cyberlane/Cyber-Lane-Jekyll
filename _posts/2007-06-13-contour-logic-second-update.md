@@ -6,6 +6,9 @@ updated:     2007-06-13
 location:    Brighton, England
 tags:        [CAD, DXF, Diagram]
 description: My second progress update about my contour logic application
+redirect_from:
+  - /blog/2007/contour-logic-second-update
+  - /blog/2007/06/13/contour-logic-second-update
 ---
 Well it's a been a few days since I last updated this, so here is a what is what has changed:
 {{ more }}

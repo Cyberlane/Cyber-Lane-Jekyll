@@ -6,6 +6,9 @@ updated:     2016-06-30
 location:    Malmö, Sweden
 tags:        [CSharp, Coding, Nancy, NancyFX, Security]
 description: Preventing non-localhost requests from reaching NancyFx modules
+redirect_from:
+  - /blog/2016/nancy-local-request-only-modules
+  - /blog/2016/06/30/nancy-local-request-only-modules
 ---
 
 Today I was playing around with some code, and I was thinking that it would be really nice to hide some admin modules from public access without creating user access security. {{ more }}

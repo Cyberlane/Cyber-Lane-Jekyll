@@ -6,6 +6,9 @@ updated:     2015-04-27
 location:    Lund, Sweden
 tags:        [Emigration, Sweden, Lund, tretton37, Ninja, leet, 1337]
 description: I emigrated to Sweden from England and am settling in nicely
+redirect_from:
+  - /blog/2015/settling-in-sweden
+  - /blog/2015/04/27/settling-in-sweden
 ---
 At the beginning of January I emigrated from England to Sweden, and began my journey to discover the wonders of Sweden. The culture is completely different to what I have been used to previously, and often confusing, but ultimately is something that I am glad I got to experience. {{ more }}
 

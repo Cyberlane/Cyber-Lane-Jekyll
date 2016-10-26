@@ -6,6 +6,9 @@ updated:     2008-04-21
 location:    Brighton, England
 tags:        [Status-Update, Silverlight]
 description: Playing around with Silverlight
+redirect_from:
+  - /blog/2008/silverlight-clouds
+  - /blog/2008/04/21/silverlight-clouds
 ---
 Once again, I have been really busy with numerous different things. I have been teaching myself Microsoft Silverlight, {{ more }} reading a bit more into AJAX for ASP.NET, as well as playing around with a few other languages. As an experiment, I have started to convert CartoLogix into Silverlight, as I have a feeling it would run much better as a Silverlight application, if it is intended for use over the web.
 

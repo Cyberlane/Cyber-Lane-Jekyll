@@ -6,6 +6,9 @@ updated:     2016-07-03
 location:    Eslöv, Sweden
 tags:        [Coding, Jekyll, GitHub Pages, iOS]
 description: I have started using Octopage
+redirect_from:
+  - /blog/2016/blogging-with-octopage
+  - /blog/2016/07/03/blogging-with-octopage
 ---
 
 Yesterday I discovered an app for iOS which allowed me to write my Jekyll blog posts.{{ more }}

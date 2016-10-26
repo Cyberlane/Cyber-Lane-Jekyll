@@ -6,6 +6,9 @@ updated:     2009-07-10
 location:    Brighton, England
 tags:        [jQuery, XML, Tutorial]
 description: A tutorial on creating an XML object
+redirect_from:
+  - /blog/2009/jquery-cerate-an-xml-document-object
+  - /blog/2009/07/10/jquery-cerate-an-xml-document-object
 ---
 Starting with the basics, we are going to create an XML Document/Object with JavaScript. Now as most developers should know, Internet Explorer behaves quite differently to all other web browsers, and for this, it will be no exception.
 {{ more }}

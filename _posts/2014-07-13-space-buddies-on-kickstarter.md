@@ -6,6 +6,9 @@ updated:     2014-07-13
 location:    Brighton, England
 tags:        [Kickstarter, Electronics, Kits, Programming, ATMega8]
 description: My first Kickstarter campaign is live!
+redirect_from:
+  - /blog/2014/space-buddies-on-kickstarter
+  - /blog/2014/07/13/space-buddies-on-kickstarter
 ---
 I have just launched my first Kickstarter campaign for an electronics kit which teaches more than just soldering.
 {{ more }}

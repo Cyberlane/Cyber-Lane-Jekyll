@@ -6,6 +6,9 @@ updated:     2013-11-22
 location:    Brighton, England
 tags:        [Workshops, Kits, Maker-Faire]
 description: Summary of events at Brighton Mini Maker Faire 2013
+redirect_from:
+  - /blog/2013/brighton-mini-maker-faire-2013
+  - /blog/2013/09/07/brighton-mini-maker-faire-2013
 ---
 I had a great time at the Brighton Mini Maker Faire today.
 

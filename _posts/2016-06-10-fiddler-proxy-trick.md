@@ -6,6 +6,9 @@ updated:     2016-06-10
 location:    Helsingborg, Sweden
 tags:        [Fiddler, Proxy, Coding, Debugging, ElasticSearch, Nest]
 description: A simple trick for debugging with Fiddler
+redirect_from:
+  - /blog/2016/fiddler-proxy-trick
+  - /blog/2016/06/10/fiddler-proxy-trick
 ---
 
 Recently I have been working a lot with ElasticSearch and when debugging on localhost, my requests do not show up in fiddler. {{ more }}

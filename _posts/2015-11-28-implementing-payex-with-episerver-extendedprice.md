@@ -6,6 +6,9 @@ updated:     2015-11-18
 location:    Lund, Sweden
 tags:        [EpiServer, PayEx, C-Sharp, Coding, Gist, GitHub, OpenSource]
 description: Implementing PayEx with EPiServer (ExtendedPrice)
+redirect_from:
+  - /blog/2015/implementing-payex-with-episerver-extendedprice
+  - /blog/2015/11/28/implementing-payex-with-episerver-extendedprice
 ---
 
 The past year I have been working a lot with EPiServer in a number of different ways, ranging from creating integration packages, to simply adding additional features for some specific customer requirements. However, out of everything the most troubling was when I was trying to add PayEx integration. {{ more }}

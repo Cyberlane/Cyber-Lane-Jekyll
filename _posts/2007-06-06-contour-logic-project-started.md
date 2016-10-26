@@ -6,6 +6,9 @@ updated:     2007-06-06
 location:    Brighton, England
 tags:        [CAD, DXF, Diagram]
 description: Starting on a new project which helps the building industry with contours
+redirect_from:
+  - /blog/2007/contour-logic-project-started
+  - /blog/2007/06/06/contour-logic-project-started
 ---
 A new project is starting for me, and I think this one is going to go far as well, as there seems to be quite a large demand for it, plus I believe it will be easy for me to develop.
 {{ more }}

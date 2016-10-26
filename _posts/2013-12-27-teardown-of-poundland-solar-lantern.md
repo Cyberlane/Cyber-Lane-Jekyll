@@ -6,6 +6,9 @@ updated:     2013-12-27
 location:    Brighton, England
 tags:        [Solar, Batteries, Home-Improvement, Teardown]
 description: Teardown of a Poundland Solar Lantern
+redirect_from:
+  - /blog/2013/teardown-of-poundland-solar-lantern
+  - /blog/2013/12/27/teardown-of-poundland-solar-lantern
 ---
 Today I was in Poundland just generally looking around for some toys for my mother's dog, as after visiting for Christmas I noticed he had destroyed all of his toys and needed some new ones. While I was in the store, I noticed they were selling a Solar powered garden lantern, which states that that it automatically turns on at dusk. For &pound;1, I couldn't resist taking one home to break apart and have a look inside. {{ more }}
 

@@ -6,6 +6,9 @@ updated:     2013-12-26
 location:    Brighton, England
 tags:        [Home-Improvement, XP500, Headphones, Batteries]
 description: Planned improvements to XP500 headphones
+redirect_from:
+  - /blog/2013/improvements-for-xp500-headphones
+  - /blog/2013/12/26/improvements-for-xp500-headphones
 ---
 A little over a year ago, I treated myself to a nice gaming headset. I did a little bit of research and found a pair that were all that I could ever want and their sound was apparently really good (as far as reviews went), with a bonus that I am able to apply voice filters. So I purchased a Turtle Beach XP500 wireless headset, and absolutely loved them, and still do today. {{ more }} They are extremely comfortable, the sound you get out of them is absolutely amazing, and the voicer filters are great for annoying my friends online Xbox Live. The only problem I have with them is that they require two AA batteries, and although I generally always have some rechargeable batteries kicking around, I do not always remember to charge them! So a project I am going to undertake in the new year is to improve these headphones so that I no longer require batteries.
 

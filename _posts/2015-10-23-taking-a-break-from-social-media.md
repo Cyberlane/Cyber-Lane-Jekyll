@@ -6,6 +6,9 @@ updated:     2015-10-23
 location:    Lund, Sweden
 tags:        [Twitter, Facebook, Skype, Slack, IM, Instant Messenger, Social, Social Media]
 description: I took a break from social media and this is what happened
+redirect_from:
+  - /blog/2015/taking-a-break-from-social-media
+  - /blog/2015/10/23/taking-a-break-from-social-media
 ---
 
 So the past week I have taken a break from social media, and includes all of the following, and perhaps a couple more {{ more }}:

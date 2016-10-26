@@ -6,6 +6,9 @@ updated:     2013-01-21
 location:    Brighton, England
 tags:        [PIC, PIC16F1825, SD_Card]
 description: An introduction of an SD Card Reader I am working on with a PIC16F1825
+redirect_from:
+  - /blog/2013/sd-card-reader-with-pic16f1825
+  - /blog/2013/01/21/sd-card-reader-with-pic16f1825
 ---
 
 This post is more of an introduction of what I am working on more than anything else really. Chris Holden created an amazing RAW audio playing device which has essentially only 5 components, as listed here:

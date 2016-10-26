@@ -6,6 +6,9 @@ updated:     2014-01-12
 location:    Brighton, England
 tags:        [OpenSCAD, Home-Improvement]
 description: Furniture I designed with OpenSCAD
+redirect_from:
+  - /blog/2014/furniture-design-with-openscad
+  - /blog/2014/01/12/furniture-design-with-openscad
 ---
 In my last blog post I started to show off something I threw together in OpenSCAD in a few minutes, and I have been playing around with the application a bit more since then. So I had a rough idea in my head of some furniture I wanted to build to improve my bedroom, and since I haven't touched a CAD application in quite a while, doing it in code just makes sense to me.
 {{ more }}

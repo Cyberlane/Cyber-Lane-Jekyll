@@ -6,6 +6,9 @@ updated:     2015-10-27
 location:    Lund, Sweden
 tags:        [Moving, Emigrating, Language, Swedish, English, Teaching, Electronics, Making, Sharing]
 description: Struggles I am facing as a foreigner
+redirect_from:
+  - /blog/2015/struggles-of-moving-abroad
+  - /blog/2015/10/27/struggles-of-moving-abroad
 ---
 
 In the beginning of January 2015, I moved from Brighton, England to Lund, Sweden to start a new job as a contractor for [tretton37](http://www.tretton37.com/) but unfortunately I have faced some problems {{ more }} in moving here.

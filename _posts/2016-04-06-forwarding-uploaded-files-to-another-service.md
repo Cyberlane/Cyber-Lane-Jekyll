@@ -6,6 +6,9 @@ updated:     2016-04-06
 location:    Malmö, Sweden
 tags:        [CSharp, Coding, Nancy, NancyFX, Services, File Upload, Async, Await, REST]
 description: Receiving uploaded files from Nancy and sending them to another web service
+redirect_from:
+  - /blog/2016/forwarding-uploaded-files-to-another-service
+  - /blog/2016/04/06/forwarding-uploaded-files-to-another-service
 ---
 
 I was playing around with a small project yesterday evening, where I was receiving uploaded files to my NancyFX service but needed to send those on to another web service, but this was not as simple as I had hoped. {{ more }}

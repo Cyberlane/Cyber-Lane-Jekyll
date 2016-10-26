@@ -8,6 +8,9 @@ tags:        [Node, NodeJS, Cloudflare, DNS, Dynamic DNS, Self Hosted, nginx]
 description: Explaining something I discovered about Cloudflare
 image:
   feature: 'cloudflare.jpg'
+redirect_from: 
+  - /blog/2016/why-cloudflare-gives-me-error-522
+  - /blog/2016/08/08/why-cloudflare-gives-me-error-522
 ---
 
 Last week I started to make use of [Cloudflare](https://www.cloudflare.com) for my DNS on a few of my domains, including my [Dynamic DNS](https://www.cyber-lane.com/blog/2016/08/04/cloudflare-dynamic-dns.html).

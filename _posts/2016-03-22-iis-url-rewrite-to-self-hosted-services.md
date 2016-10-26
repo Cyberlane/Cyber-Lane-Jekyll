@@ -6,6 +6,9 @@ updated:     2016-03-22
 location:    Malmö, Sweden
 tags:        [IIS, URL Rewrite, Nancy, NancyFX, C-Sharp, Coding, OpenSource]
 description: Configuring IIS to rewrite URLs to a self hosted service
+redirect_from:
+  - /blog/2016/iis-url-rewrite-to-self-hosted-services
+  - /blog/2016/03/22/iis-url-rewrite-to-self-hosted-services
 ---
 
 At work I was writing a number of simple self hosted services with [NancyFX](http://www.nancyfx.org/), however normally at home I would host these on my Linux server and make use of nginx which makes this extremely simple. At the office however we were using IIS, which required some extra tweaks and configurations to get working, so I thought I would share how it is done for anybody else that may want to do this. {{ more }}

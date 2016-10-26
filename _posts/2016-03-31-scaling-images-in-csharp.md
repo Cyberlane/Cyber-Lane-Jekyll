@@ -6,6 +6,9 @@ updated:     2016-03-31
 location:    Malmö, Sweden
 tags:        [CSharp, Coding, GDI]
 description: Configuring MongoDb for remote access
+redirect_from:
+  - /blog/2016/scaling-images-in-csharp
+  - /blog/2016/03/31/scaling-images-in-csharp
 ---
 
 In my spare time I work on a number of different projects to help me keep up to date on my skills, along with helping out friends and family with their problems. One of my current projects involves a photo gallery so I needed to write some code to manipulate images. {{ more }}

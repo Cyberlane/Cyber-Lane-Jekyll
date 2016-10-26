@@ -6,6 +6,9 @@ updated:     2009-07-10
 location:    Brighton, England
 tags:        [C-Sharp, Reports, Audit]
 description: Reports, Audits and RackSpace Domains
+redirect_from:
+  - /blog/2009/rackspace-reports
+  - /blog/2009/02/16/rackspace-reports
 ---
 For those of you who make use of RackSpace for your web hosting, you may notice there is no option to get full reports on every Domain you have with them, {{ more }} let alone the Sub-Domains, nor where they are all pointing. If you want that type of information, you have to manually view each page, one by one.
 

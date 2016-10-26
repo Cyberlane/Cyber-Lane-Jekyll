@@ -6,6 +6,9 @@ updated:     2008-07-20
 location:    Brighton, England
 tags:        [Status-Update]
 description: Further progress on my skill development
+redirect_from:
+  - /blog/2008/progression
+  - /blog/2008/07/20/progression
 ---
 Once more, I am delayed in actually making blog posts, as I have been ever so busy with numerous different things. Let us go through a summary of what I have been up to since my last blog post..
 {{ more }}

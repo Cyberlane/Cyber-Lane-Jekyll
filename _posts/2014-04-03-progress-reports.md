@@ -6,6 +6,9 @@ updated:     2014-04-03
 location:    Brighton, England
 tags:        [General-Chat, Progress-Reports]
 description: Talking about how often I do progress reports
+redirect_from:
+  - /blog/2014/progress-reports
+  - /blog/2014/04/03/progress-reports
 ---
 
 An online friend [@skyberrys](https://twitter.com/skyberrys) asked on Twitter a very interesting question.

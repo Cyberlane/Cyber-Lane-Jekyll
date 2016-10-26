@@ -6,6 +6,9 @@ updated:     2016-06-07
 location:    Helsingborg, Sweden
 tags:        [Parallels, MacOS, Windows, Network Drive, CasPol]
 description: Correctly accessing MacOS files from a Windows VM over Parallels
+redirect_from:
+  - /blog/2016/parallels-shared-mac-drive
+  - /blog/2016/06/07/parallels-shared-mac-drive
 ---
 
 I have a Macbook and make use of Parallels to run my client projects in VMs, which are often Windows. Since I have never been a fan of Git on Windows, I store my project files in my Mac drive and share it with Windows over a network share, but this can cause problems.{{ more }}

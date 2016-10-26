@@ -6,6 +6,9 @@ updated:     2016-03-28
 location:    Malmö, Sweden
 tags:        [OSX, Mac, MongoDb, Database]
 description: Configuring MongoDb for remote access
+redirect_from:
+  - /blog/2016/accessing-mongodb-remotely-with-mac-osx-host
+  - /blog/2016/03/28/accessing-mongodb-remotely-with-mac-osx-host
 ---
 
 Today I was struggling to access my MongoDb instance from another machine in the same network. At first I had assumed it would be firewall settings, but later on I found out it to be a MongoDb setting. {{ more }}

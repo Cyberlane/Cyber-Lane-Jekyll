@@ -6,6 +6,9 @@ updated:     2014-01-09
 location:    Brighton, England
 tags:        [OpenSCAD, Home-Improvement, Qi-Wireless-Charging]
 description: A quick look at some things I made with OpenSCAD on my first attempt
+redirect_from:
+  - /blog/2014/openscad-is-amazing
+  - /blog/2014/01/09/openscad-is-amazing
 ---
 I have not really had a chance to start blogging anything recently as I have been too busy with Christmas, New Year and being back at work (with a lot of things going on). I am planning on posting up some more blog posts around a load of JavaScript I have been working on, and once things settle a bit more, I will do some more electronics posts!
 {{ more }}

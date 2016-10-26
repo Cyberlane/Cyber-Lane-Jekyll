@@ -6,6 +6,9 @@ updated:     2014-09-08
 location:    Brighton, England
 tags:        [Workshops, Kits, Maker-Faire, Space-Buddies]
 description: Summary of events at Brighton Mini Maker Faire 2014
+redirect_from:
+  - /blog/2014/brighton-mini-maker-faire-2014
+  - /blog/2014/09/08/brighton-mini-maker-faire-2014
 ---
 I cannot believe that an entire year has gone by already, and yet another Maker Faire has come and gone!
 

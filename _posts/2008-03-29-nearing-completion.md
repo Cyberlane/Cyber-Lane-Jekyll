@@ -6,6 +6,9 @@ updated:     2008-03-29
 location:    Brighton, England
 tags:        [Status-Update]
 description: Nearing completion of this website
+redirect_from:
+  - /blog/2008/nearing-completion
+  - /blog/2008/03/29/nearing-completion
 ---
 Unfortunately I have been busy with a lot of other work which takes precedence over me completing this website.
 {{ more }}

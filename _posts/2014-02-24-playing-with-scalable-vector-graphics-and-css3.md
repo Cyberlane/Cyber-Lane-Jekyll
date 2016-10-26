@@ -6,6 +6,9 @@ updated:     2014-02-24
 location:    Brighton, England
 tags:        [CSS, SVG, HTML5, Espruino]
 description: Converting my logo into pure CSS and an SVG
+redirect_from:
+  - /blog/2014/playing-with-scalable-vector-graphics-and-css3
+  - /blog/2014/02/24/playing-with-scalable-vector-graphics-and-css3
 ---
 I haven't been posted often enough this year! Let's get out of that bad habit by starting with some of the things I have been working on. Currently I am thinking of making some further tweaks to my web site, as I am still not really happy with it yet ( I won't go into full detail though ). Anyway, as an excuse to improve my knowledge around CSS3, I thought I would try my hand {{ more }} at converting my logo into pure CSS.
 

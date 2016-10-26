@@ -6,6 +6,9 @@ updated:     2007-06-07
 location:    Brighton, England
 tags:        [CAD, DXF, Diagram]
 description: A small progress update about my contour logic application
+redirect_from:
+  - /blog/2007/contour-logic-first-update
+  - /blog/2007/06/07/contour-logic-first-update
 ---
 Last night I added the following features:
 

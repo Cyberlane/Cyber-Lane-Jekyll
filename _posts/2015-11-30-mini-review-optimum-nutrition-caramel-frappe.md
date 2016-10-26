@@ -6,6 +6,9 @@ updated:     2015-11-30
 location:    Lund, Sweden
 tags:        [Review, Protein Powder, Training, Optimum Nutrition, Caramel, Frappe]
 description: Mini Review of Optimum Nutrition's Caramel Frappé protein powder
+redirect_from:
+  - /blog/2015/mini-review-optimum-nutrition-caramel-frappe
+  - /blog/2015/11/30/mini-review-optimum-nutrition-caramel-frappe
 ---
 
 Today I will giving you my personal opinion on Optimum Nutrition's Caramel Frappé protein powder. {{ more }}

@@ -6,6 +6,9 @@ updated:     2008-02-08
 location:    Brighton, England
 tags:        [Status-Update]
 description: A little bit about me
+redirect_from:
+  - /blog/2008/a-fresh-start
+  - /blog/2008/02/08/a-fresh-start
 ---
 New hosting package, and new blog, so I guess I need to give a bit of a rundown about myself.
 {{ more }}

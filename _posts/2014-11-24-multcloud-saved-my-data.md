@@ -6,6 +6,9 @@ updated:     2014-11-24
 location:    Brighton, England
 tags:        [MultCloud, Bitcasa, Cloud, Data, NAS]
 description: A short review of how MultCloud saved my data from Bitcasa
+redirect_from:
+  - /blog/2014/multcloud-saved-my-data
+  - /blog/2014/11/24/multcloud-saved-my-data
 ---
 We all store a lot of data, some more than others and I personally have a LOT of data to store. So much so that I have had my own personal NAS (Network Attached Storage) since 2003. Originally I used to work on a LOT of programming projects and would want to store the raw media files which unfortunately took up a lot of space. In time I decided to turn all my CDs into MP3 files {{ more }} and store them in a way that I could easily find all my music without having to find the correct CD for a specific song, or worrying about it skipping if the CD ever got scratched. At the time I thought I had a lot of CDs, I had a little over 100 of them, so making them digital just made sense to me.
 

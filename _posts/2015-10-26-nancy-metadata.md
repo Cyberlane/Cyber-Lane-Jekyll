@@ -6,6 +6,9 @@ updated:     2015-10-26
 location:    Lund, Sweden
 tags:        [NancyFX, Metadata, C-Sharp, Coding, Gist]
 description: I wrote a little code with NancyFX for metadata
+redirect_from:
+  - /blog/2015/nancy-metadata
+  - /blog/2015/10/26/nancy-metadata
 ---
 
 Last week I was struggling to find out how to make good use of metadata within [NancyFx](http://www.nancyfx.org/). I was reading through their extensive [documentation](https://github.com/NancyFx/Nancy/wiki) along with searching Google for answers. {{ more }} The closest I could find was a [single blog post](http://liddellj.com/nancy-metadata-modules/) written by [Jim Liddell](https://twitter.com/liddellj) and unfortunately it did not cover the specifics of what I wanted to try and achieve.

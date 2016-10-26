@@ -6,6 +6,9 @@ updated:     2009-07-11
 location:    Brighton, England
 tags:        [jQuery, XML, Tutorial]
 description: A tutorial on copying data from XML objects
+redirect_from:
+  - /blog/2009/jquery-copy-xml-from-one-object-to-another
+  - /blog/2009/07/11/jquery-copy-xml-from-one-object-to-another
 ---
 Today I am going to go through, how to copy some XML structure and data from one XML object to another XML object. Now from what I have noticed when making use of jQuery, I have seen that it does not actually support XML as such, while it does support XHTML formatted in an XML structure. So in essence, we will be converting our XML object into an XHTML object, do all of our changes, and then convert it back. This may sound a bit long winded, but it's actually not as bad as it sounds.
 {{ more }}

@@ -6,6 +6,9 @@ updated:     2009-02-08
 location:    Brighton, England
 tags:        [CartoLogix, XNA, .NET]
 description: Another big progress update
+redirect_from:
+  - /blog/2009/big-update
+  - /blog/2009/02/08/big-update
 ---
 It's been quite a while since I've made a blog post, I haven't forgot about my blog, however I have been constantly busy with numerous other things! I am finally starting to get everything organized, so updates should start to become a bit more regular (finally!).
 {{ more }}
