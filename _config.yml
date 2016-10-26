@@ -3,7 +3,7 @@ description:      Cyber-Lane is a blog for Justin Nel featuring his thoughts, in
 disqus_shortname: justinn
 reading_time:     true
 words_per_minute: 200
-url:              http://localhost:4000 #https://www.cyber-lane.com
+url:              https://www.cyber-lane.com
 
 # Owner/author information
 owner:
