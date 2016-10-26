@@ -6,6 +6,8 @@ updated:     2016-08-04
 location:    Malmö, Sweden
 tags:        [Node, NodeJS, Cloudflare, DNS, Dynamic DNS, GitHub]
 description: A simple script that updates your Cloudflare DNS entry
+image:
+  feature: 'cloudflare.jpg'
 ---
 
 I use [Cloudflare](https://www.cloudflare.com) for the DNS on my domain, which lends me a number of useful features, incuding SSL.

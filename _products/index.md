@@ -3,6 +3,12 @@ permalink:	/products/
 layout:		products
 title:		Products
 products:
+  -  title: 'Kidspeak'
+     description: 'Information about Kidspeak'
+     wiki: '/products/kidspeak/'
+     img:
+        src: '/Content/products/kidspeak.png'
+        alt: 'kidspeak'
   -  title: 'Tree Kit Trinket'
      description: 'Electronic PCB Kit with a Christmas twist!'
      wiki: '/products/tree-kit-trinket/'

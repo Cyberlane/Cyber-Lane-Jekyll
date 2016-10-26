@@ -6,6 +6,8 @@ updated:     2016-07-28
 location:    Malmö, Sweden
 tags:        [CSharp, Coding, MSBuild, Batch file, Build script, CAKE]
 description: How to find MSBuild within a batch file
+image:
+  feature: 'matrix.jpg'
 ---
 
 Lately I have been doing less and less C-Sharp code, and the times I do have to dive in, I try to use CAKE or another some similar system for my build scripts. However my current client has a personal preference of using Windows batch files, which is fine until it looks for a version of MSBuild that I do not have installed! {{ more }}

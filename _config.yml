@@ -1,40 +1,88 @@
-name:         'Cyber-Lane'
-safe:         true
-#auto:        true
-#server:      false
-port:         4000
-url:          'https://www.cyber-lane.com'
-domain:       'https://cyber-lane.com'
-author:       'Justin Nel'
-description:  'Cyber-Lane is a blog for Justin Nel featuring his thoughts, instructions for electronic kits he has designed, teardowns, hardware hacking, and more!'
+title:            Cyber-Lane
+description:      Cyber-Lane is a blog for Justin Nel featuring his thoughts, instructions for electronic kits he has designed, teardowns, hardware hacking, and more!
+disqus_shortname: justinn
+reading_time:     true
+words_per_minute: 200
+url:              http://localhost:4000 #https://www.cyber-lane.com
 
-source:              .
-destination:         ./_site
-plugins_dir:         ./_plugins
-gems:                [jekyll-paginate]
+# Owner/author information
+owner:
+  name:           Justin Nel
+  avatar:         avatar.png
+  bio:            "South African, polyglot, programmer, published games developer, artist, author, inventor, thinker, teacher, traveller and film geek."
+  email:          
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        cyberlane
+  facebook:       MyCyberlane
+  github:         cyberlane
+  stackexchange:  
+  linkedin:       cyberlane
+  instagram:        cyber_lane
+  flickr:         
+  tumblr:         
+  # google plus id, include the '+', eg +mmistakes
+  google_plus:    +JustinNel
 
-future:              true
-lsi:                 false
-highlighter:         false
-markdown:            kramdown
-#permalink:           '/blog/:year/:title'
-include:             ['_pages','_products']
-relative_permalinks: false
-paginate:            10
-paginate_path:       '/blog/page:num/'
-excerpt_separator:   '{{ more }}'
+# Background image to be tiled on all pages
+background: triangular.png
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:         
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Europe/Stockholm
+future:      true
+highlighter: rouge
+markdown:    kramdown
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-feed
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+# Amount of post to show on home page
+paginate: 5
 
 kramdown:
-  auto_ids:         true,
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:      false
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
 
-  coderay:
-    coderay_wrap:               div
-    coderay_line_numbers:       inline
-    coderay_line_numbers_start: 1
-    coderay_tab_width:          4
-    coderay_bold_every:         10
-    coderay_css:                style
+include: 
+  - .htaccess
+  - "_products"
+exclude: 
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp

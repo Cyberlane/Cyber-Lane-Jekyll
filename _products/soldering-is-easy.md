@@ -4,6 +4,8 @@ layout:		product_info
 title:		Soldering Is Easy
 sidebar:    'soldering-is-easy'
 tags:        [Cyber, Lane, Cyberlane, Cyber-Lane, Electronics, Kits, Maker, Flower Badbes, Badges, Soldering, Brighton, Brighton Mini Maker Faire]
+image:
+  feature: '../Content/products/soldering-is-easy/010.jpg'
 ---
 Welcome to the Soldering Is Easy wiki!
 

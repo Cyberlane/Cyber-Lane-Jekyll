@@ -6,6 +6,8 @@ updated:     2016-08-08
 location:    Malmö, Sweden
 tags:        [Node, NodeJS, Cloudflare, DNS, Dynamic DNS, Self Hosted, nginx]
 description: Explaining something I discovered about Cloudflare
+image:
+  feature: 'cloudflare.jpg'
 ---
 
 Last week I started to make use of [Cloudflare](https://www.cloudflare.com) for my DNS on a few of my domains, including my [Dynamic DNS](https://www.cyber-lane.com/blog/2016/08/04/cloudflare-dynamic-dns.html).
