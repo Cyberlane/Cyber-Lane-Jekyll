@@ -1,2 +1,3 @@
 User-agent: *
 Disallow:
+Sitemap: https://cyber-lane.com/sitemap.xml
