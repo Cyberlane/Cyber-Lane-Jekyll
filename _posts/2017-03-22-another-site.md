@@ -4,7 +4,7 @@ title:       Another site for my content
 category:    blog
 updated:     2017-03-22
 location:    Malmö, Sweden
-tags:        [Personal]
+tags:        [Personal, Kidspeak]
 description: Talking about another one of my websites
 ---
 

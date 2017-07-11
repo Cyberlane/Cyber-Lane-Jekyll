@@ -1,4 +1,6 @@
 -  text: "The Kidspeak project lives on it's own website"
    links:
-     -  text: 'Kidspeak Website'
+     -  text: 'Kidspeak 2016 Website'
         href: 'https://cyberlane.github.io/Kidspeak-2016/'
+     -  text: 'Kidspeak Events'
+        href: 'https://kidspeak.se'
